@@ -10,7 +10,7 @@ export const LIEUX = [
 export const HUMEURS = [
   { id: 'afond', label: 'À fond', emoji: '⚡', sous: 'déborde d\u2019énergie', couleur: '#E87058' },
   { id: 'ronchon', label: 'Ronchon', emoji: '😤', sous: 'de mauvais poil', couleur: '#6A71D3' },
-  { id: 'ennui', label: 'Il s\u2019ennuie', emoji: '🥱', sous: 'tourne en rond', couleur: '#56BAE2' },
+  { id: 'ennui', label: 'Ramollo', emoji: '🥱', sous: 'tourne en rond', couleur: '#56BAE2' },
   { id: 'pose', label: 'Posé', emoji: '😌', sous: 'calme ou fatigué', couleur: '#2EBCA1' },
   { id: 'inspire', label: 'Inspiré', emoji: '🎨', sous: 'envie de créer', couleur: '#E275A4' },
 ]
@@ -33,3 +33,7 @@ export const TEMPS = [
 ]
 
 export const QUOTA_GRATUIT = 3 // idées gratuites par jour
+
+// Mode test : true = accès illimité pour les testeurs (pas de paywall).
+// À repasser à false le jour du lancement pour réactiver le freemium.
+export const MODE_TEST = true

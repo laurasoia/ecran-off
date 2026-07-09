@@ -75,6 +75,7 @@ export default function Accueil({
         valeur={criteres.humeur}
         onChange={maj('humeur')}
         colonnes={2}
+        vertical
       />
 
       <SelecteurChips

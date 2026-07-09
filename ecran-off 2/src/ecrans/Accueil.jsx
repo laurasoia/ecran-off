@@ -65,6 +65,7 @@ export default function Accueil({
           valeur={pluie ? 'maison' : criteres.lieu}
           onChange={maj('lieu')}
           colonnes={3}
+          vertical
         />
       </div>
 
@@ -73,6 +74,7 @@ export default function Accueil({
         options={HUMEURS}
         valeur={criteres.humeur}
         onChange={maj('humeur')}
+        colonnes={2}
       />
 
       <SelecteurChips

@@ -8,7 +8,7 @@ export default function Accueil({
   criteres, setCriteres,
   epuise, setEpuise,
   pluie, setPluie,
-  ideesRestantes, estPremium,
+  ideesRestantes, estPremium, modeTest,
   onChercher,
 }) {
   const maj = (cle) => (val) => setCriteres((c) => ({ ...c, [cle]: val }))
@@ -102,13 +102,17 @@ export default function Accueil({
           >
             ✨ Trouve une idée
           </button>
-          {!estPremium && (
+          {modeTest ? (
+            <p className="text-center text-xs font-bold text-soleil mt-2">
+              ✨ Accès test illimité — merci de tester 🙏
+            </p>
+          ) : !estPremium ? (
             <p className="text-center text-xs text-nuit/50 mt-2">
               {ideesRestantes > 0
                 ? `${ideesRestantes} idée${ideesRestantes > 1 ? 's' : ''} gratuite${ideesRestantes > 1 ? 's' : ''} aujourd'hui`
                 : `Limite du jour atteinte — reviens demain`}
             </p>
-          )}
+          ) : null}
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import { useState, useMemo, useCallback } from 'react'
 import biblio from './data/activites.json'
-import { AGES, TEMPS, QUOTA_GRATUIT } from './data/vocab'
+import { AGES, TEMPS, QUOTA_GRATUIT, MODE_TEST } from './data/vocab'
 import { filtrer, tirer } from './lib/moteur'
 import {
   getVues, ajouterVue,
@@ -22,6 +22,7 @@ export default function App() {
   // recalcul affiché du quota (re-render quand on tire)
   const [tick, setTick] = useState(0)
   const estPremium = false // à brancher plus tard (Stripe / compte famille)
+  const illimite = estPremium || MODE_TEST // pas de plafond pendant les tests
   const ideesRestantes = useMemo(
     () => Math.max(0, QUOTA_GRATUIT - ideesUtiliseesAujourdHui()),
     [tick]
@@ -36,7 +37,7 @@ export default function App() {
   }, [criteres, pluie, epuise])
 
   const proposerUneIdee = useCallback(() => {
-    if (quotaAtteint(QUOTA_GRATUIT, estPremium)) {
+    if (quotaAtteint(QUOTA_GRATUIT, illimite)) {
       setEcran('paywall')
       return
     }
@@ -102,6 +103,7 @@ export default function App() {
         setPluie={setPluie}
         ideesRestantes={ideesRestantes}
         estPremium={estPremium}
+        modeTest={MODE_TEST}
         onChercher={proposerUneIdee}
       />
     </main>

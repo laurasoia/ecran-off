@@ -7,7 +7,7 @@
  * @returns {Array} activités correspondantes
  */
 export function filtrer(activites, criteres) {
-  const { ageRep, lieu, humeur, dureeMax, effortFaibleSeulement, soloSeulement } = criteres
+  const { ageRep, lieu, humeur, dureeMax, effortFaibleSeulement, soloSeulement, pluieSeulement } = criteres
   return activites.filter((a) => {
     if (ageRep != null && !(a.age.min <= ageRep && ageRep <= a.age.max)) return false
     if (lieu && !a.lieux.includes(lieu)) return false
@@ -15,6 +15,7 @@ export function filtrer(activites, criteres) {
     if (dureeMax != null && a.duree.min > dureeMax) return false
     if (effortFaibleSeulement && a.effortParent !== 'faible') return false
     if (soloSeulement && a.autonomie === 'non') return false
+    if (pluieSeulement && !a.pluieOk) return false
     return true
   })
 }

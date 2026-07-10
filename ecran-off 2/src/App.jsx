@@ -15,9 +15,11 @@ const ACTIVITES = biblio.activites
 export default function App() {
   const [ecran, setEcran] = useState('accueil') // 'accueil' | 'activite' | 'paywall'
   const [criteres, setCriteres] = useState({ age: null, lieu: null, humeur: null, temps: null })
-  const [epuise, setEpuise] = useState(false)
-  const [pluie, setPluie] = useState(false)
-  const [solo, setSolo] = useState(false)
+  const [mode, setMode] = useState(null) // null | 'epuise' | 'pluie' | 'solo' (un seul à la fois)
+  const epuise = mode === 'epuise'
+  const pluie = mode === 'pluie'
+  const solo = mode === 'solo'
+  const basculerMode = useCallback((m) => setMode((cur) => (cur === m ? null : m)), [])
   const [activite, setActivite] = useState(null)
 
   // recalcul affiché du quota (re-render quand on tire)
@@ -33,8 +35,8 @@ export default function App() {
   const construireCriteres = useCallback(() => {
     const ageRep = AGES.find((a) => a.id === criteres.age)?.rep ?? null
     const dureeMax = TEMPS.find((t) => t.id === criteres.temps)?.max ?? null
-    const lieu = pluie ? 'maison' : criteres.lieu
-    return { ageRep, lieu, humeur: criteres.humeur, dureeMax, effortFaibleSeulement: epuise, soloSeulement: solo }
+    const lieu = criteres.lieu
+    return { ageRep, lieu, humeur: criteres.humeur, dureeMax, effortFaibleSeulement: epuise, soloSeulement: solo, pluieSeulement: pluie }
   }, [criteres, pluie, epuise, solo])
 
   const proposerUneIdee = useCallback(() => {
@@ -98,12 +100,8 @@ export default function App() {
       <Accueil
         criteres={criteres}
         setCriteres={setCriteres}
-        epuise={epuise}
-        setEpuise={setEpuise}
-        pluie={pluie}
-        setPluie={setPluie}
-        solo={solo}
-        setSolo={setSolo}
+        mode={mode}
+        onMode={basculerMode}
         ideesRestantes={ideesRestantes}
         estPremium={estPremium}
         modeTest={MODE_TEST}

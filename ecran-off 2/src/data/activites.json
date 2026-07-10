@@ -1,6 +1,6 @@
 {
-  "version": "4.0",
-  "note": "Bibliothèque Écran OFF — 162 activités. Champ 'autonomie' (non/avec_lancement/totale) pour le filtre 'joue en solo'. Filtrer sur age × lieux × humeurs × duree, puis tirer au sort.",
+  "version": "5.0",
+  "note": "Bibliothèque Écran OFF — 169 activités. Champs 'autonomie' (non/avec_lancement/totale) et 'pluieOk' (faisable sous la pluie). Filtrer sur age × lieux × humeurs × duree, puis tirer au sort.",
   "vocabulaires": {
     "lieux": [
       "maison",
@@ -137,7 +137,8 @@
       ],
       "astuce": "Si tu es vraiment crevé·e : assieds-toi sur le canapé et contente-toi de crier « LAAAVE » à intervalles aléatoires. Effet garanti.",
       "partage": "On a survécu au sol-en-lave aujourd'hui. De justesse. 🌋🛋️",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_002",
@@ -173,7 +174,8 @@
       ],
       "astuce": "Aucun matériel, marche aussi sur la banquette arrière dans les bouchons.",
       "partage": "Concours de grimaces remporté haut la main. Enfin, perdu. C'était le but. 😝",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_003",
@@ -218,7 +220,8 @@
       ],
       "astuce": "Active sans bazar et étonnamment apaisante avant le bain ou le coucher.",
       "partage": "Nez officiellement certifié super-détective ce soir. 👃🕵️",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_004",
@@ -271,7 +274,8 @@
       ],
       "astuce": "Tu peux la laisser montée jusqu'au soir : ça occupe pour le reste de la journée sans rien faire de plus.",
       "partage": "Nouveau quartier construit dans le salon ce week-end. Architecte 5 ans. 🏕️✨",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_005",
@@ -320,7 +324,8 @@
       ],
       "astuce": "Photographie l'expo avant de tout ranger — ça fait une trace, et un super contenu à partager.",
       "partage": "Visite privée du Musée du N'importe Quoi ce soir. Bouleversant. 🖼️🧦",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_006",
@@ -361,7 +366,8 @@
       ],
       "astuce": "Parfait pour transformer un trajet pénible (« on marche encooore ») en mission. Marche en ville comme en forêt.",
       "partage": "Arc-en-ciel ramassé caillou par caillou cet aprèm. 🌈🍃",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_007",
@@ -405,7 +411,8 @@
       ],
       "astuce": "Idéal pour vider le réservoir d'énergie avant le retour au calme. Trois épreuves suffisent, pas besoin d'en faire dix.",
       "partage": "Médaille d'or aux JO du jardin. Discipline : saut de flaque. 🥇🤸",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_008",
@@ -441,7 +448,8 @@
       ],
       "astuce": "Zéro matériel, zéro bazar à ramener. L'activité dehors la plus reposante du lot.",
       "partage": "Œuvre d'art posée au sol aujourd'hui. Durée de vie : jusqu'au prochain coup de vent. 🍂🌼",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_009",
@@ -477,7 +485,8 @@
       ],
       "astuce": "Transforme une balade obligatoire en aventure. Tu peux marcher tranquillement pendant qu'il fait tout le boulot.",
       "partage": "Mission d'espionnage accomplie dans le quartier. Couverture intacte. 🕶️🚶",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_010",
@@ -514,7 +523,8 @@
       ],
       "astuce": "Le jeu de voiture parfait : aucune main requise, marche même au volant. Idéal pour désamorcer un ronchon en silence.",
       "partage": "Une heure de route, zéro « oui », zéro « non ». Niveau diplomate. 🚗🤐",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_011",
@@ -551,7 +561,8 @@
       ],
       "astuce": "Mangeur de kilomètres redoutable. Aucun matériel, marche aussi au coucher pour remplacer le dessin animé du soir.",
       "partage": "Notre escargot a fini pilote de fusée. Logique. 🐌🚀",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_012",
@@ -587,7 +598,8 @@
       ],
       "astuce": "Canalise un enfant surexcité en voiture sans que tu quittes la route des yeux. Express, mais relançable à l'infini.",
       "partage": "Champion·ne du bingo de l'autoroute. A repéré 4 tracteurs. 🚜🏁",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_013",
@@ -632,7 +644,8 @@
       ],
       "astuce": "Un couloir suffit, ça ne casse rien, et ça marche aussi bien pour décrocher un ronchon en le faisant rire.",
       "partage": "Strike au bowling de chaussettes ce soir. Ligue professionnelle. 🎳🧦",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_014",
@@ -674,7 +687,8 @@
       ],
       "astuce": "Inverser l'objectif (faire moche exprès) débloque les enfants timides et désamorce les râleurs.",
       "partage": "Fashion week à la maison. Le jury est sous le choc. 👗🥾",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_015",
@@ -727,7 +741,8 @@
       ],
       "astuce": "Activité longue qui occupe vraiment. La pâte se conserve une semaine dans une boîte hermétique pour la ressortir un autre jour.",
       "partage": "Sculpteur officiel de la maison. Sujet du jour : un escargot. Enfin, ça y ressemble. 🐌🎨",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_016",
@@ -772,7 +787,8 @@
       ],
       "astuce": "Parfaite en fin de journée pour faire redescendre la pression, lumières déjà tamisées avant le coucher.",
       "partage": "Séance de cinéma d'ombres ce soir. Casting : un lapin et un canard. 🐰🎭",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_017",
@@ -825,7 +841,8 @@
       ],
       "astuce": "Le grand classique anti-ennui des tout-petits. Prévois une serviette au sol et accepte d'avance qu'il y ait des éclaboussures.",
       "partage": "Séance pêche aux trésors. Niveau d'eau au sol : modéré. 🌊🧸",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_018",
@@ -878,7 +895,8 @@
       ],
       "astuce": "Le côté « ingénieur » accroche beaucoup les enfants qui s'ennuient. Chaque échec relance le jeu.",
       "partage": "Grand prix de billes maison. Circuit construit en 100 % récup. 🏎️📚",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_019",
@@ -924,7 +942,8 @@
       ],
       "astuce": "L'effondrement final libère autant que la construction — idéal pour un enfant à cran ou ronchon.",
       "partage": "Tour de 14 boîtes de conserve. Puis BOUM. Les deux étaient géniaux. 🗼💥",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_020",
@@ -969,7 +988,8 @@
       ],
       "astuce": "Surveille la pique avec les plus petits (ou remplace par une paille rigide). Active et utile à la fois.",
       "partage": "Brochettes maison signées chef de 5 ans. Vitamines validées. 🍓🍌",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_021",
@@ -1017,7 +1037,8 @@
       ],
       "astuce": "L'antidote idéal à une fin de journée surchargée. Le nid peut rester en place pour la sieste.",
       "partage": "Après-midi cocon et histoires. Personne ne voulait en sortir. 📚🛋️",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_022",
@@ -1057,7 +1078,8 @@
       ],
       "astuce": "Trois chansons suffisent à bien vider le trop-plein d'énergie avant le repas ou le bain.",
       "partage": "Statues musicales dans le salon. Figé en position de flamant rose. 🕺🦩",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_023",
@@ -1094,7 +1116,8 @@
       ],
       "astuce": "Zéro matériel, marche partout — table, voiture, salle d'attente. Idéal pour occuper un ronchon en douceur.",
       "partage": "Partie de Qui suis-je acharnée. La réponse était : un ornithorynque. 🤔🦦",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_024",
@@ -1131,7 +1154,8 @@
       ],
       "astuce": "Module l'énergie selon ton besoin : version course pour défouler, version tri pour apaiser. Parfait pour les petits.",
       "partage": "A trouvé 6 objets bleus en un temps record. Champion de la maison. 🔵🏃",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_025",
@@ -1167,7 +1191,8 @@
       ],
       "astuce": "Oui, c'est du rangement déguisé. Non, ils ne s'en rendent pas compte. De rien.",
       "partage": "Mission rangement bouclée en 3 minutes chrono. L'agent a assuré. 🕵️🧸",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_026",
@@ -1208,7 +1233,8 @@
       ],
       "astuce": "Un couloir dégagé suffit. Le pliage occupe autant que le lancer, et ça calme un enfant survolté en le concentrant.",
       "partage": "Championnat d'avions en papier. Record du couloir : 8 mètres. ✈️📄",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_027",
@@ -1257,7 +1283,8 @@
       ],
       "astuce": "Activité longue, calme et autonome : pendant qu'il chouchoute ses peluches, tu as un vrai moment de répit.",
       "partage": "Le spa des doudous a ouvert ses portes. Clientèle très détendue. 🧸💆",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_028",
@@ -1302,7 +1329,8 @@
       ],
       "astuce": "Adapte la difficulté au nombre de paires. Calme et concentré, parfait pour faire baisser le rythme.",
       "partage": "Bataille de mémoire à la maison. Battu·e par un enfant de 5 ans. Encore. 🧠🥤",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_029",
@@ -1356,7 +1384,8 @@
       ],
       "astuce": "Mets un tablier ou des vêtements qui craignent l'eau, une serviette au sol, et laisse-le tranquille un bon moment.",
       "partage": "Plongeur officiel du restaurant familial. Très investi. 🫧🍽️",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_030",
@@ -1401,7 +1430,8 @@
       ],
       "astuce": "Active la créativité sans bazar. Garde les planches : elles font une collection dont les enfants sont très fiers.",
       "partage": "Première BD publiée à la maison. Héros : une patate aventurière. 🥔📖",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_031",
@@ -1450,7 +1480,8 @@
       ],
       "astuce": "Jeu de rôle riche et long qui tourne presque tout seul une fois lancé. Tu peux « manger » assis sans bouger.",
       "partage": "Dîner cinq étoiles servi à la maison. Le chef a 6 ans. 🍴⭐",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_032",
@@ -1491,7 +1522,8 @@
       ],
       "astuce": "Marche dans une seule pièce, sans rien préparer. Le « tu brûles » final déclenche toujours des éclats de rire.",
       "partage": "Chasse au doudou perdu. Retrouvé derrière le rideau. Ouf. 🧸🔥",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_033",
@@ -1536,7 +1568,8 @@
       ],
       "astuce": "Pas besoin de vrais déguisements : l'imagination fait tout le travail. Range au fur et à mesure pour limiter le bazar.",
       "partage": "Aujourd'hui à la maison : un chevalier et une magicienne. Mission accomplie. 🦸🧙",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_034",
@@ -1581,7 +1614,8 @@
       ],
       "astuce": "La craie est le seul achat utile (quelques centimes). La marelle reste dessinée pour les jours suivants.",
       "partage": "Marelle géante dessinée devant la maison. Format escargot. 🌀🦶",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_035",
@@ -1617,7 +1651,8 @@
       ],
       "astuce": "Apprend la patience et l'observation, dans le calme. On remet toujours les petites bêtes là où on les a trouvées.",
       "partage": "Grand prix d'escargots ce matin. Durée de la course : 12 minutes. 🐌🏁",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_036",
@@ -1653,7 +1688,8 @@
       ],
       "astuce": "Gratuit, poétique, et ça canalise. Attention juste à la profondeur de l'eau avec les plus petits.",
       "partage": "Régate de bateaux de feuilles sur le ruisseau. Capitaine ravi. ⛵🍂",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_037",
@@ -1688,7 +1724,8 @@
       ],
       "astuce": "Aucun matériel, juste du soleil. Parfait pour brûler de l'énergie en 10 minutes sur le trajet de l'école.",
       "partage": "Bataille d'ombres au soleil. Impossible d'attraper la sienne. ☀️🏃",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_038",
@@ -1737,7 +1774,8 @@
       ],
       "astuce": "Prévois des vêtements qui craignent vraiment et un tuyau pour le rinçage après. Occupation longue et autonome garantie.",
       "partage": "Grand chef de la cuisine de boue. Spécialité : tarte aux cailloux. 🍂🥧",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_039",
@@ -1777,7 +1815,8 @@
       ],
       "astuce": "Le moment de calme parfait quand vous êtes tous les deux fatigués. Toi aussi tu as le droit de souffler.",
       "partage": "Après-midi à lire dans les nuages. On a vu un dragon mangeur de glace. ☁️🐉",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_040",
@@ -1813,7 +1852,8 @@
       ],
       "astuce": "Fixe bien les limites de la zone avant de commencer. Classique mais toujours efficace pour dépenser de l'énergie dehors.",
       "partage": "Partie de cache-cache au parc. Cachette imbattable derrière le grand chêne. 🌳🙈",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_041",
@@ -1849,7 +1889,8 @@
       ],
       "astuce": "Mêle création et balade. Aucun matériel, juste ce qu'offre le sol. Apaisant et concentré.",
       "partage": "Chemin secret tracé dans la forêt. Mène à un trésor (un gland). 🌲➡️",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_042",
@@ -1894,7 +1935,8 @@
       ],
       "astuce": "Développe l'observation et le respect du vivant. Une loupe à quelques euros décuple l'émerveillement.",
       "partage": "Safari petites bêtes au jardin. 5 espèces repérées, 0 dérangée. 🔍🐞",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_043",
@@ -1930,7 +1972,8 @@
       ],
       "astuce": "Transforme un trajet à pied ennuyeux en parcours de défis. Choisis des bordures basses et sûres.",
       "partage": "A traversé le pont du vide sans tomber. Équilibriste confirmé. 🤸🚶",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": false
     },
     {
       "id": "act_044",
@@ -1965,7 +2008,8 @@
       ],
       "astuce": "Un vrai exercice de pleine conscience déguisé en jeu. Idéal pour faire redescendre la pression en douceur.",
       "partage": "Oreilles en mode super-pouvoir au parc. 9 sons différents repérés. 👂🍃",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_045",
@@ -2010,7 +2054,8 @@
       ],
       "astuce": "Zéro effort de préparation, le simple changement de décor transforme un goûter banal en petit événement.",
       "partage": "Pique-nique surprise dans le jardin. Dessert mangé en premier, évidemment. 🧺🌳",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_046",
@@ -2045,7 +2090,8 @@
       ],
       "astuce": "Mange-kilomètres redoutable, sans aucune main mobilisée. Adapte : version chiffres pour les plus jeunes.",
       "partage": "Alphabet de la route complété avant l'arrivée. Le Z a failli avoir notre peau. 🚗🔤",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_047",
@@ -2082,7 +2128,8 @@
       ],
       "astuce": "Désamorce un ronchon sans en avoir l'air : impossible de bouder en débattant entre manger des spaghettis sucrés ou des glaces salées.",
       "partage": "Débat de fond en voiture : voler ou être invisible ? Toujours pas tranché. 🤔🦸",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_048",
@@ -2118,7 +2165,8 @@
       ],
       "astuce": "Canalise l'énergie d'un enfant surexcité à l'arrière sans que tu lâches le volant. Le chauffeur ne tape pas le rythme, évidemment.",
       "partage": "Concert improvisé sur l'autoroute. Le groupe s'appelle Les Bouchons. 🎤🥁",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_049",
@@ -2154,7 +2202,8 @@
       ],
       "astuce": "Très simple, parfait pour les plus petits, et relançable à l'infini en changeant juste la couleur.",
       "partage": "Chasse au rouge sur la route. 14 voitures rouges et beaucoup de cris. 🔴🚙",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_050",
@@ -2191,7 +2240,8 @@
       ],
       "astuce": "Conversation douce et complice, parfaite pour un trajet calme ou un moment câlin. On apprend plein de choses sur son enfant.",
       "partage": "Portrait chinois en voiture. Mon enfant serait un dauphin qui mange des glaces. 🐬🍦",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_051",
@@ -2240,7 +2290,8 @@
       ],
       "astuce": "Activité longue qui mobilise vraiment, et il y a un goûter à la clé. Prévois de la farine partout, ça fait partie du deal.",
       "partage": "Fournée de cookies maison cet après-midi. Pâtissier en herbe très concentré. 🍪👨‍🍳",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_052",
@@ -2294,7 +2345,8 @@
       ],
       "astuce": "La petite expérience qui fascine à tous les âges. Fais-la dans l'évier ou sur un plateau, le nettoyage est immédiat.",
       "partage": "Éruption volcanique dans la cuisine. La science, c'est trop bien. 🌋🧪",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_053",
@@ -2343,7 +2395,8 @@
       ],
       "astuce": "Mets une vieille nappe et des habits qui craignent. Pour les plus petits, le yaourt coloré remplace la peinture sans risque.",
       "partage": "Séance peinture sans pinceau. Méthode : surtout les doigts. 🎨🖐️",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_054",
@@ -2384,7 +2437,8 @@
       ],
       "astuce": "Marche dès qu'on sait tenir un crayon. Plus tes dessins sont catastrophiques, plus les fous rires sont garantis.",
       "partage": "Pictionary à la maison. Mon « cheval » ressemblait à un grille-pain. 🐴✏️",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_055",
@@ -2420,7 +2474,8 @@
       ],
       "astuce": "Zéro matériel, défoule un peu sans être trop agité. Les plus jeunes adorent voir les adultes se ridiculiser.",
       "partage": "Soirée mimes à la maison. Personne n'a deviné mon « hippopotame qui danse ». 🦛🎭",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_056",
@@ -2457,7 +2512,8 @@
       ],
       "astuce": "Parfait pour canaliser et faire bouger en même temps. Glisse des ordres calmes vers la fin pour faire redescendre.",
       "partage": "Partie de Jacques a dit endiablée. Piégé·e sur « tape dans tes mains ». 🙌😄",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_057",
@@ -2497,7 +2553,8 @@
       ],
       "astuce": "Un ballon de baudruche est léger et inoffensif pour le mobilier : idéal pour défouler en intérieur sans casse.",
       "partage": "Record battu : 47 touches sans que le ballon touche le sol. 🎈🔥",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_058",
@@ -2538,7 +2595,8 @@
       ],
       "astuce": "Dégage l'espace de tout obstacle dur. Excellente pour vider un réservoir d'énergie débordant.",
       "partage": "Course en sac dans le salon. Beaucoup de chutes, beaucoup de rires. 🦘🛏️",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_059",
@@ -2579,7 +2637,8 @@
       ],
       "astuce": "Le rythme et le défi physique décrochent même un enfant ronchon. À toi de jouer le présentateur survolté.",
       "partage": "Tournoi de limbo dans le salon. Mon dos a dit non. 🕺🎶",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_060",
@@ -2628,7 +2687,8 @@
       ],
       "astuce": "Travaille la motricité fine dans le calme. Pour les plus petits, choisis des pâtes à gros trou (rigatoni).",
       "partage": "Atelier bijoux ce matin. Collier de macaronis offert avec amour. 📿🍝",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_061",
@@ -2681,7 +2741,8 @@
       ],
       "astuce": "Le papier ainsi décoré fait un super emballage cadeau personnalisé. Garde-le pour le prochain anniversaire.",
       "partage": "Fabrique de tampons-patate. Papier cadeau 100 % fait main. 🥔⭐",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_062",
@@ -2726,7 +2787,8 @@
       ],
       "astuce": "Occupation longue, calme et autonome. Pendant qu'il dessine, tu peux souffler à côté (ou colorier ta propre zone tranquillement).",
       "partage": "Fresque géante déroulée dans le salon. Thème : la jungle sous-marine (oui oui). 🖍️🌊",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_063",
@@ -2771,7 +2833,8 @@
       ],
       "astuce": "Quelques minutes de préparation pour de longues minutes d'aventure. Tu peux ensuite te poser pendant qu'il enquête.",
       "partage": "Chasse au trésor improvisée à la maison. Trésor : un paquet de gâteaux. 🗺️💎",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_064",
@@ -2807,7 +2870,8 @@
       ],
       "astuce": "Aiguise le sens de l'observation, dans le calme et sans rien préparer. Marche aussi en salle d'attente.",
       "partage": "Champion·ne du « qu'est-ce qui a changé ». A repéré une chaussette manquante en 2 secondes. 👀🧦",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_065",
@@ -2843,7 +2907,8 @@
       ],
       "astuce": "Activité calme et connectée, sans aucun matériel. Le ralenti la rend reposante et concentrée.",
       "partage": "Jeu du miroir ce soir. Synchronisation quasi parfaite. 🪞🤸",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_066",
@@ -2878,7 +2943,8 @@
       ],
       "astuce": "L'outil parfait avant la sieste ou le coucher, ou pour apaiser une grosse crise une fois retombée. Toi aussi tu respires.",
       "partage": "Voyage imaginaire sur une plage ce soir. Atterrissage en douceur. 🏝️😌",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_067",
@@ -2919,7 +2985,8 @@
       ],
       "astuce": "Exige calme et concentration : parfait pour canaliser un grand énervé une fois l'énergie un peu retombée.",
       "partage": "Château de cartes à 4 étages avant l'effondrement. Patience de moine. 🏯🃏",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_068",
@@ -2964,7 +3031,8 @@
       ],
       "astuce": "Demande ta présence active (sécurité), mais c'est une vraie aventure créative et un repas en bonus. À réserver aux moments où tu as l'énergie.",
       "partage": "Concours de cuisine maison. Plat gagnant : tartines banane-fromage. Audacieux. 👨‍🍳🏆",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_069",
@@ -3009,7 +3077,8 @@
       ],
       "astuce": "Astuce détournée pour faire manger des fruits sans bataille. Le plus dur, c'est qu'il accepte de manger son chef-d'œuvre.",
       "partage": "Bonhomme en fruits réalisé puis dévoré. Bilan vitamines : excellent. 🍓😄",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_070",
@@ -3054,7 +3123,8 @@
       ],
       "astuce": "Jeu sensoriel et calme. Prépare 5-6 objets à l'avance pour enchaîner sans interruption.",
       "partage": "Jeu de la boîte mystère. A reconnu une pomme de pin les yeux fermés. 📦🤚",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_071",
@@ -3104,7 +3174,8 @@
       ],
       "astuce": "Le grand format et le geste ample aident un enfant ronchon ou tendu à relâcher la pression sans crier.",
       "partage": "Mur d'art libre à la maison. Beaucoup de spirales, beaucoup mieux après. 🖊️🧱",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_072",
@@ -3145,7 +3216,8 @@
       ],
       "astuce": "Mélange concentration (montage) et défoulement (la chute finale). Plus le parcours est long, plus la satisfaction est grande.",
       "partage": "Parcours de dominos de 30 pièces. La chute valait toute l'attente. 🁢➡️",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_073",
@@ -3190,7 +3262,8 @@
       ],
       "astuce": "Un grand classique du jeu d'imagination pour les petits, avec ce que tu as déjà à la maison.",
       "partage": "Voyage en train dans le salon. Terminus : la chambre. 🚂🪑",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_074",
@@ -3227,7 +3300,8 @@
       ],
       "astuce": "Imparable contre la bouderie : impossible de rester ronchon quand on lutte contre le fou rire. Aucun matériel.",
       "partage": "Concours de sérieux perdu en 4 secondes. Fou rire général. 😂🤝",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_075",
@@ -3272,7 +3346,8 @@
       ],
       "astuce": "Allie création et activité physique. À faire dans un endroit fermé à la circulation. La craie part à la première pluie.",
       "partage": "Circuit routier dessiné dans la cour. Permis de trottinette validé. 🛴🛣️",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_076",
@@ -3313,7 +3388,8 @@
       ],
       "astuce": "Dessiner en grand et au sol change tout par rapport à la feuille. Calme, sans bazar à ranger, juste un peu de craie sur les mains.",
       "partage": "Fresque de trottoir signée toute la famille. Éphémère et géante. 🌈🖍️",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_077",
@@ -3355,7 +3431,8 @@
       ],
       "astuce": "Transforme une longue balade en quête. Le tri et l'exposition au retour prolongent encore l'activité.",
       "partage": "Collection de trésors de la forêt rapportée à la maison. Fierté maximale. 🍂🪶",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_078",
@@ -3405,7 +3482,8 @@
       ],
       "astuce": "Marche aussi avec des pièces de monnaie, des écorces, des surfaces texturées. Pont parfait entre une balade et un atelier au calme.",
       "partage": "Empreintes de feuilles au crayon. La nature en version dessin. 🍃✏️",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_079",
@@ -3446,7 +3524,8 @@
       ],
       "astuce": "Projet long et physique, parfait pour une vraie sortie nature. Utilisez uniquement du bois déjà au sol, sans rien casser.",
       "partage": "Cabane d'aventurier construite en forêt. Architecte 7 ans, très fier. 🛖🌲",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_080",
@@ -3482,7 +3561,8 @@
       ],
       "astuce": "Éveil sensoriel apaisant. Vérifie d'abord le sol (pas de verre, d'épines) pour des pieds nus en toute sécurité.",
       "partage": "Parcours sensoriel pieds nus au jardin. Verdict : l'herbe gagne. 🦶🌱",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_081",
@@ -3528,7 +3608,8 @@
       ],
       "astuce": "Faire tout dégringoler libère bien : efficace pour un enfant énervé ou ronchon. Marche dehors comme dans un couloir.",
       "partage": "Chamboule-tout maison. Pyramide rasée en un lancer. 🎯🥫",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_082",
@@ -3563,7 +3644,8 @@
       ],
       "astuce": "Le grand classique qui dépense de l'énergie tout en travaillant le contrôle de soi (se figer net). Une cour ou un parc suffit.",
       "partage": "Partie de 1-2-3 Soleil au parc. Statue parfaite à chaque coup. ☀️🧍",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_083",
@@ -3598,7 +3680,8 @@
       ],
       "astuce": "Le défouloir le plus direct qui soit. À réserver aux jours où TU as aussi l'énergie de courir un peu (effort parent élevé, on ne va pas se mentir).",
       "partage": "Course-poursuite endiablée au parc. Bilan : enfant ravi, parent essoufflé. 🏃💨",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_084",
@@ -3643,7 +3726,8 @@
       ],
       "astuce": "Apprend la patience et le respect du vivant, dans le calme. L'attente fait partie de l'expérience, ne la précipite pas.",
       "partage": "Mangeoire installée, premier moineau repéré. Grande émotion à la fenêtre. 🐦🌰",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_085",
@@ -3688,7 +3772,8 @@
       ],
       "astuce": "Travaille l'adresse en se défoulant un peu. Choisis une cible et un dégagement sans personne autour.",
       "partage": "Concours de lancer de pommes de pin. Trois paniers d'affilée. 🎯🌰",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_086",
@@ -3733,7 +3818,8 @@
       ],
       "astuce": "L'activité reine du « mode pluie » : elle transforme la météo pourrie en aventure. Prévois des habits secs au retour.",
       "partage": "Expédition flaques sous la pluie. Bottes pleines, sourire jusqu'aux oreilles. 🌧️👢",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_087",
@@ -3773,7 +3859,8 @@
       ],
       "astuce": "Excellente dépense d'énergie qui travaille la coordination. Choisis un sol plat et dégagé.",
       "partage": "Corde à sauter au parc. Record perso : 32 sauts d'affilée. 🪢🤸",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": false
     },
     {
       "id": "act_088",
@@ -3808,7 +3895,8 @@
       ],
       "astuce": "Occupe longtemps sur autoroute et glisse un peu de géo sans en avoir l'air. Aucune main requise, parfait au volant.",
       "partage": "Chasse aux départements sur la route. 23 différents repérés. Le 2A nous a manqué. 🚗🔢",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_089",
@@ -3845,7 +3933,8 @@
       ],
       "astuce": "Travaille la mémoire en s'amusant. Aucun matériel, parfait pour la voiture comme pour patienter n'importe où.",
       "partage": "Jeu de la valise en voiture. Liste de 14 objets retenue. Cerveaux en surchauffe. 🧳🧠",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_090",
@@ -3882,7 +3971,8 @@
       ],
       "astuce": "Chanter ensemble désamorce une mauvaise humeur en quelques minutes. Idéal en voiture, aucune main mobilisée.",
       "partage": "Blind test maison en voiture. Personne ne reconnaissait mon fredonnement. 🎵🚙",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_091",
@@ -3918,7 +4008,8 @@
       ],
       "astuce": "Enrichit le vocabulaire en jouant. Adapte la difficulté (lettre ou syllabe) à l'âge. Parfait pour la route.",
       "partage": "Chaîne de mots interminable en voiture. Bloqués sur « -gnon ». 🔤🚗",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_092",
@@ -3955,7 +4046,8 @@
       ],
       "astuce": "Le rire est le meilleur antidote à la bouderie. Aucune préparation, marche en voiture, à table, partout.",
       "partage": "Concours de blagues en famille. Gagnante : « pourquoi la poule traverse la route ». 😂🐔",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_093",
@@ -3995,7 +4087,8 @@
       ],
       "astuce": "La façon la plus simple de décharger l'énergie en 3 chansons. Si tu es crevé·e, danse assis·e, l'enfant fera le reste.",
       "partage": "Soirée disco dans le salon. Chorégraphie improvisée et assumée. 💃🎶",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_094",
@@ -4044,7 +4137,8 @@
       ],
       "astuce": "Jeu de rôle riche qui glisse un peu de calcul et d'autonomie. Une fois lancé, il tourne presque seul.",
       "partage": "Épicerie ouverte à la maison. Le marchand de 5 ans rend très bien la monnaie. 🛒🍎",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_095",
@@ -4089,7 +4183,8 @@
       ],
       "astuce": "Jeu calme et bienveillant, parfait pour un enfant posé. Aide aussi à dédramatiser une vraie visite médicale.",
       "partage": "Cabinet vétérinaire ouvert ce soir. Tous les doudous vont mieux. 🩺🧸",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_096",
@@ -4138,7 +4233,8 @@
       ],
       "astuce": "Grand projet de construction et de jeu. La ville peut rester montée plusieurs jours pour des parties à rallonge.",
       "partage": "Une ville entière construite avec nos boîtes de récup. Urbanisme niveau expert. 🏙️📦",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_097",
@@ -4183,7 +4279,8 @@
       ],
       "astuce": "Affine l'écoute, calme et concentré. Un peu de préparation, mais réutilisable plein de fois.",
       "partage": "Memory des sons à la maison. Oreille de musicien confirmée. 🔊👂",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_098",
@@ -4231,7 +4328,8 @@
       ],
       "astuce": "Vous fabriquez un vrai outil anti-crise réutilisable. À ressortir lors des gros moments d'émotion pour aider à se calmer.",
       "partage": "On a fabriqué notre bouteille magique du calme. Effet hypnotique garanti. ✨🍶",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_099",
@@ -4272,7 +4370,8 @@
       ],
       "astuce": "Travaille la précision et la patience, dans le calme. La cocotte devient ensuite un jeu à part entière.",
       "partage": "Atelier pliage : une cocotte qui prédit l'avenir. Verdict : que du bonheur. 📄🔮",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_100",
@@ -4317,7 +4416,8 @@
       ],
       "astuce": "Fabrication + jeu de rôle : l'activité occupe sur la durée. Garde les marionnettes pour rejouer d'autres jours.",
       "partage": "Spectacle de marionnettes-chaussettes ce soir. Standing ovation des peluches. 🧦🎭",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_101",
@@ -4357,7 +4457,8 @@
       ],
       "astuce": "Bel outil pour mettre des mots sur les émotions, en douceur. Parfait en fin de journée ou après une grosse colère.",
       "partage": "Météo des émotions du soir : grand soleil avec quelques nuages. ☀️🌈",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_102",
@@ -4393,7 +4494,8 @@
       ],
       "astuce": "Conversation complice qui crée du lien et révèle de belles surprises. Aucun matériel, marche partout.",
       "partage": "Quiz familial improvisé. J'ai appris des trucs sur mon propre enfant ! ❓❤️",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_103",
@@ -4442,7 +4544,8 @@
       ],
       "astuce": "Astucieux pour faire boire des fruits sans négocier. Garde le mixeur sous ton contrôle pour la sécurité.",
       "partage": "Bar à smoothies maison. Cocktail du jour : le Tornade Rose. 🍓🥤",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_104",
@@ -4483,7 +4586,8 @@
       ],
       "astuce": "Annoncer le nombre exact évite la frustration et donne un objectif clair. Préparation minimale.",
       "partage": "Chasse aux trésors dans le salon. Les 10 jetons retrouvés en un temps record. 🔎💰",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_105",
@@ -4527,7 +4631,8 @@
       ],
       "astuce": "Excellente dépense d'énergie en intérieur, qui travaille l'équilibre et la coordination. Sécurise les appuis instables.",
       "partage": "Parcours du combattant dans le salon. Record amélioré à chaque tour. 🏃🛋️",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_106",
@@ -4571,7 +4676,8 @@
       ],
       "astuce": "Fabriquer le tapis fait partie du jeu, et il resservira. Marche aussi avec une seule personne qui essaie de tenir.",
       "partage": "Twister fait maison. Position finale : bretzel humain. 🔴🟡",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_107",
@@ -4620,7 +4726,8 @@
       ],
       "astuce": "Petite expérience de chimie des couleurs, fascinante et apaisante. Sur un plateau ou dans l'évier pour limiter les dégâts.",
       "partage": "Labo des couleurs ouvert à la maison. A fabriqué du violet tout seul. 🎨🔬",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_108",
@@ -4665,7 +4772,8 @@
       ],
       "astuce": "Stimule l'imagination avec ce qu'on a sous la main. Renouvelable à l'infini en changeant les objets de la boîte.",
       "partage": "Boîte à histoires ce soir. Une cuillère, un dinosaure et un bouchon ont vécu une grande aventure. 📦📖",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_109",
@@ -4706,7 +4814,8 @@
       ],
       "astuce": "Travaille l'écoute et la précision du langage, dans le calme. Plus le dessin est précis, plus le résultat est drôle.",
       "partage": "Jeu du dessin décrit. Sa licorne est devenue un cheval avec une carotte sur le front. 🦄✏️",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_110",
@@ -4751,7 +4860,8 @@
       ],
       "astuce": "Le défouloir parfait pour évacuer une grosse contrariété. Uniquement des projectiles mous, et on range au fur et à mesure.",
       "partage": "Bataille de forteresses dans le salon. Munitions : chaussettes. Aucun blessé. 🏰🧦",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_111",
@@ -4787,7 +4897,8 @@
       ],
       "astuce": "Travaille le repérage dans l'espace et la précision des consignes, en rigolant. Aucun matériel.",
       "partage": "J'ai été robotisé·e par mon enfant ce soir. Bugs nombreux et assumés. 🤖🍌",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_112",
@@ -4827,7 +4938,8 @@
       ],
       "astuce": "Mêle mouvement et retour au calme : idéal pour canaliser en douceur avant le coucher. Toi aussi tu t'étires, profites-en.",
       "partage": "Séance de yoga des animaux ce soir. Posture préférée : le chien tête en bas. 🧘🐱",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_113",
@@ -4872,7 +4984,8 @@
       ],
       "astuce": "Allie créativité et fierté de reconnaître/écrire son prénom. Calme et sans bazar, parfait à table.",
       "partage": "Prénom transformé en chef-d'œuvre coloré. Affiché fièrement sur la porte. 🔤🌟",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_114",
@@ -4921,7 +5034,8 @@
       ],
       "astuce": "Projet de patience qui se prolonge sur des jours et responsabilise. Les lentilles germent vite : effet visible en 2-3 jours.",
       "partage": "On a planté nos premières graines. Surveillance quotidienne très sérieuse. 🌱🪴",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_115",
@@ -4956,7 +5070,8 @@
       ],
       "astuce": "Mêle mouvement et apprentissage des lettres. Adapte : pour les plus jeunes, juste chercher des objets par leur son initial.",
       "partage": "Alphabet de la maison complété. Le X nous a donné du fil à retordre. 🔠🏠",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_116",
@@ -5005,7 +5120,8 @@
       ],
       "astuce": "Fabrication créative suivie d'un moment musical défoulant. Ça fait du bruit : pas l'idéal juste avant la sieste du petit dernier.",
       "partage": "Fanfare maison en tournée dans le couloir. Le groupe a du potentiel (sonore). 🥁🎺",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_117",
@@ -5046,7 +5162,8 @@
       ],
       "astuce": "Travaille la dextérité et la concentration, avec ce facteur « record à battre » qui rend accro. Aucun bazar.",
       "partage": "Pyramide de gobelets montée en 8 secondes chrono. Record perso. 🥤⏱️",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_118",
@@ -5087,7 +5204,8 @@
       ],
       "astuce": "Calme, rapide, et il y a toujours une revanche à jouer. Parfait pour patienter ou pour un moment posé.",
       "partage": "Tournoi de morpion à la maison. Score serré, ambiance électrique. ❌⭕",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_119",
@@ -5123,7 +5241,8 @@
       ],
       "astuce": "Le jeu d'observation par excellence : zéro matériel, marche dans n'importe quelle pièce ou salle d'attente.",
       "partage": "Partie de « je vois, je vois » qui a duré tout le repas. 👁️🔴",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_120",
@@ -5168,7 +5287,8 @@
       ],
       "astuce": "Beau pont entre une balade (ramasser) et un atelier calme (peindre). Les galets cachés dehors font de jolies surprises pour les passants.",
       "partage": "Atelier galets peints. Une coccinelle déposée sur un banc pour faire sourire quelqu'un. 🪨🐞",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_121",
@@ -5204,7 +5324,8 @@
       ],
       "astuce": "Crier un bon coup dehors évacue à merveille colère et frustration. Imparable pour transformer un ronchon en T-Rex hilare.",
       "partage": "Concours de rugissements au parc. Un T-Rex de 4 ans a gagné haut la main. 🦖📣",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_122",
@@ -5240,7 +5361,8 @@
       ],
       "astuce": "L'activité d'automne par excellence : gratuite, joyeuse, défoulante. Le grand geste de lancer décroche même un ronchon.",
       "partage": "Tempête de feuilles mortes cet après-midi. Tout le monde s'est roulé dedans. 🍂🌪️",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_123",
@@ -5276,7 +5398,8 @@
       ],
       "astuce": "Création apaisante et concentrée, sans rien à acheter ni à ramener. Le côté éphémère fait partie de la beauté.",
       "partage": "Mandala de pétales composé au jardin. Aussi beau qu'éphémère. 🌸🌀",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_124",
@@ -5311,7 +5434,8 @@
       ],
       "astuce": "Renforce les bras en s'amusant et dépense bien l'énergie. Sur une surface souple (herbe) et sans forcer sur les poignets.",
       "partage": "Course de brouette dans le jardin. Bras de pro. 🤸🌳",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_125",
@@ -5346,7 +5470,8 @@
       ],
       "astuce": "Grand classique qui défoule et fait rire. À faire sur l'herbe, en adaptant la hauteur du mouton à la taille du sauteur.",
       "partage": "Saute-mouton à travers tout le parc. On a fini essoufflés et ravis. 🐑🤾",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_126",
@@ -5382,7 +5507,8 @@
       ],
       "astuce": "Exploite le mobilier naturel pour un vrai défi physique. Vérifie les appuis (branches solides, sol stable) avant de lancer.",
       "partage": "Parcours du combattant inventé en forêt. Record battu trois fois. 🌲🏃",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_127",
@@ -5418,7 +5544,8 @@
       ],
       "astuce": "Mêle marche, observation et un soupçon de mystère. Idéal pour rendre passionnante une balade qui s'annonçait morne.",
       "partage": "Jeu de piste improvisé en forêt. Flèches de bâtons et trésor au bout. 🧭🌿",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_128",
@@ -5453,7 +5580,8 @@
       ],
       "astuce": "Petit bain de nature très apaisant, qui reconnecte au présent. Parfait pour ralentir ensemble quand vous êtes tous les deux à plat.",
       "partage": "Câlin aux arbres au parc. On a reconnu « notre » chêne les yeux fermés. 🌳🤗",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_129",
@@ -5489,7 +5617,8 @@
       ],
       "astuce": "Travaille le geste et la persévérance, au bord de l'eau. Surveille de près la proximité de l'eau avec les plus jeunes.",
       "partage": "Concours de ricochets à l'étang. Record du jour : 5 rebonds. 🪨💧",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_130",
@@ -5538,7 +5667,8 @@
       ],
       "astuce": "Activité calme, sensorielle et responsabilisante. Prévois des habits qui craignent la terre, c'est le principe.",
       "partage": "Petit jardinier officiel à l'œuvre. A arrosé tout le balcon (et lui-même). 🌻🪣",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_131",
@@ -5574,7 +5704,8 @@
       ],
       "astuce": "Transforme une marche pénible et boudeuse en jeu : difficile de rester ronchon en sautant comme un kangourou.",
       "partage": "Trajet jusqu'au parc fait en canard, kangourou et crabe. Personne n'a boudé. 🦆🦘",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_132",
@@ -5615,7 +5746,8 @@
       ],
       "astuce": "Aiguise le regard et donne un but à la balade. Un appareil en carton fonctionne aussi bien qu'un vrai pour les plus jeunes.",
       "partage": "Mini-reporter en mission photo au parc. A capturé une feuille en forme de cœur. 📷🍃",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_133",
@@ -5651,7 +5783,8 @@
       ],
       "astuce": "Fascination garantie et apprentissage de l'observation patiente. On regarde sans toucher ni écraser : respect des petites bêtes.",
       "partage": "Vingt minutes à espionner une colonne de fourmis. Captivant pour tout le monde. 🐜🔍",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_134",
@@ -5695,7 +5828,8 @@
       ],
       "astuce": "Activité utile qui donne du sens et un vrai sentiment de fierté. Garde le tri des déchets dangereux pour toi.",
       "partage": "Mission nettoyage au parc en famille. 23 déchets ramassés, coin tout propre. ♻️🧤",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": false
     },
     {
       "id": "act_135",
@@ -5731,7 +5865,8 @@
       ],
       "astuce": "Reconnecte au rythme des saisons et donne un fil conducteur à la promenade. Renouvelable à chaque période de l'année.",
       "partage": "Chasse aux signes du printemps. Premiers bourgeons repérés ! 🌷🔎",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": false
     },
     {
       "id": "act_136",
@@ -5767,7 +5902,8 @@
       ],
       "astuce": "Petit défi d'équilibre qui se glisse partout, même en pleine balade. Travaille la concentration en douceur.",
       "partage": "Défi flamant rose dans le parc. Tenu 40 secondes sur une jambe. 🦩⏳",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": false
     },
     {
       "id": "act_137",
@@ -5803,7 +5939,8 @@
       ],
       "astuce": "Stimule l'imagination et fait passer la route sans s'en rendre compte. Reste bienveillant dans les histoires inventées.",
       "partage": "On a inventé la vie de tous les gens croisés sur la route. Joséphine la dompteuse était la meilleure. 🚗🦁",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_138",
@@ -5839,7 +5976,8 @@
       ],
       "astuce": "Pur carburant à imagination, parfait pour les trajets. Suis ses idées plutôt que les tiennes, c'est là que ça décolle.",
       "partage": "Notre voiture s'est posée sur la Lune aujourd'hui (en imagination). 🚗🌙",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_139",
@@ -5875,7 +6013,8 @@
       ],
       "astuce": "Travaille la créativité et l'aisance à l'oral, en rigolant. Aucune main mobilisée, idéal au volant.",
       "partage": "Pub du jour en voiture : des chaussettes qui font le café. Je suis vendu·e. 📺🧦",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_140",
@@ -5910,7 +6049,8 @@
       ],
       "astuce": "Grand jeu d'invention collaboratif qui peut se poursuivre de trajet en trajet. Garde une trace écrite, ça devient un projet à rallonge.",
       "partage": "On a fondé un pays en voiture. Loi n°1 : sieste obligatoire après chaque gâteau. 🏴🍬",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_141",
@@ -5946,7 +6086,8 @@
       ],
       "astuce": "Imagination et fous rires garantis, sans aucun matériel. Pour les plus grands : dessiner l'animal une fois arrivés.",
       "partage": "Découverte du jour en voiture : le crocolapin, qui saute et claque des dents. 🐊🐰",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_142",
@@ -5981,7 +6122,8 @@
       ],
       "astuce": "Rituel apaisant et précieux, parfait sur le trajet du retour. Aide à focaliser sur le positif et à se confier en douceur.",
       "partage": "Notre rituel des trois trucs chouettes sur la route du retour. Toujours un beau moment. 🚗💛",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_143",
@@ -6018,7 +6160,8 @@
       ],
       "astuce": "Astuce de parent : un grand classique pour retrouver un peu de calme... et la paix sonore quelques minutes. À doser, sans piéger un enfant déjà contrarié.",
       "partage": "Record de silence en voiture : 3 minutes. Battu par un fou rire. 🤫⏱️",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_144",
@@ -6054,7 +6197,8 @@
       ],
       "astuce": "Manière originale et calme de faire raconter sa journée à un enfant qui répond d'habitude « rien » à « tu as fait quoi ? ».",
       "partage": "Journée racontée à l'envers en voiture. Exercice de mémoire surprenant. 🔄🚗",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_145",
@@ -6089,7 +6233,8 @@
       ],
       "astuce": "Jeu d'apaisement parfait pour faire redescendre la pression en fin de trajet ou après une journée trop pleine.",
       "partage": "Chasse au calme par la fenêtre. On a trouvé un nuage en forme de coussin. ☁️😌",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_146",
@@ -6125,7 +6270,8 @@
       ],
       "astuce": "Vraie technique de retour au calme déguisée en jeu, utile pour apaiser une montée d'énervement. Marche aussi pour t'aider, toi.",
       "partage": "Respiration des bulles en voiture. Petit moment de calme retrouvé. 🫧😮‍💨",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_147",
@@ -6162,7 +6308,8 @@
       ],
       "astuce": "Créatif et défoulant à la fois, parfait pour faire passer la route. Les paroles les plus absurdes sont les meilleures.",
       "partage": "Chanson personnalisée inventée en voiture. Sujet : nos chaussettes qui disparaissent. 🎶🧦",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_148",
@@ -6198,7 +6345,8 @@
       ],
       "astuce": "Enrichit le vocabulaire et les connaissances, sans aucun matériel. Adapte les catégories à l'âge.",
       "partage": "Petit bac oral en voiture. La lettre Z a fait souffrir tout le monde. 🔤🚗",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_149",
@@ -6234,7 +6382,8 @@
       ],
       "astuce": "Mêle apprentissage utile et invention rigolote. Le décor défile et alimente le jeu tout seul.",
       "partage": "Décodage des panneaux en voiture. Celui-là, paraît-il, interdit les licornes. 🚸🦄",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_150",
@@ -6270,7 +6419,8 @@
       ],
       "astuce": "Mélange réflexion et imagination, et chacun adore prendre le rôle du présentateur. Aucun matériel, parfait pour la route.",
       "partage": "Grand quiz inventé en voiture. Réponse validée : il faut 4 millions de spaghettis pour faire le tour de la Terre. 🎤🍝",
-      "autonomie": "non"
+      "autonomie": "non",
+      "pluieOk": true
     },
     {
       "id": "act_151",
@@ -6319,7 +6469,8 @@
       ],
       "astuce": "L'invitation à jouer par excellence : tu la poses, et tu peux vaquer à côté pendant qu'il s'absorbe dedans.",
       "partage": "Grande séance de tri très sérieuse ce matin. 🧺🎨",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_152",
@@ -6361,7 +6512,8 @@
       ],
       "astuce": "Le défi donne un but clair, ce qui aide beaucoup les enfants à se lancer seuls. Tu n'interviens qu'à la présentation finale.",
       "partage": "Défi construction relevé : une fusée à 3 étages. 🚀🧱",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_153",
@@ -6406,7 +6558,8 @@
       ],
       "astuce": "Un thème ouvert plutôt qu'un modèle à copier : c'est ce qui débloque l'imagination et occupe longtemps, en solo.",
       "partage": "A dessiné une ville entière peuplée de chats. 🐱🖍️",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_154",
@@ -6451,7 +6604,8 @@
       ],
       "astuce": "Parfait pour les petits : ça travaille les couleurs et le classement, dans le calme et en autonomie totale.",
       "partage": "Tri des couleurs façon pro. Le rouge a gagné. 🔴🔵",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_155",
@@ -6500,7 +6654,8 @@
       ],
       "astuce": "Grande occupation autonome des petits. Reste à portée de vue pour les moins de 3 ans (petits éléments), mais laisse-le mener.",
       "partage": "Séance transvasement très concentrée. Zéro écran, plein de pâtes. 🍚🥄",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_156",
@@ -6545,7 +6700,8 @@
       ],
       "astuce": "Le format carnet donne un projet qui dure dans le temps : il le ressort tout seul, encore et encore.",
       "partage": "Épisode 4 des aventures du chevalier-patate terminé. 🥔⚔️",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_157",
@@ -6591,7 +6747,8 @@
       ],
       "astuce": "Un classique de l'autonomie qui apaise. Si tu n'as pas de pâte du commerce, la pâte à sel maison (voir l'atelier dédié) fait pareil.",
       "partage": "Atelier modelage solo. Résultat : une ménagerie complète. 🐌🎨",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_158",
@@ -6639,7 +6796,8 @@
       ],
       "astuce": "Tu montes le nid (le lancement), puis tu t'éclipses : il s'y absorbe seul. Idéal pour un moment calme sans écran.",
       "partage": "Réfugié dans sa cabane à livres tout l'après-midi. 📚🛋️",
-      "autonomie": "avec_lancement"
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     },
     {
       "id": "act_159",
@@ -6680,7 +6838,8 @@
       ],
       "astuce": "Valeur sûre de l'autonomie calme. Un puzzle légèrement au-dessus de son niveau habituel le tient plus longtemps.",
       "partage": "Puzzle de 48 pièces terminé en solo. Grande fierté. 🧩✨",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_160",
@@ -6726,7 +6885,8 @@
       ],
       "astuce": "Zéro préparation, autonomie totale, et ça travaille la motricité fine. Un rouleau de gommettes dépanne toujours.",
       "partage": "Chef-d'œuvre en gommettes réalisé en solo. 🌟🖼️",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_161",
@@ -6767,7 +6927,8 @@
       ],
       "astuce": "Le plaisir de la chute relance le jeu à l'infini : parfait pour occuper un petit seul sans se lasser.",
       "partage": "Tour montée et démolie 47 fois. Bonheur intact. 🧱💥",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
     },
     {
       "id": "act_162",
@@ -6808,7 +6969,293 @@
       ],
       "astuce": "La contrainte rigolote donne un point de départ, ce qui aide énormément à se lancer sans toi.",
       "partage": "Défi dessin du jour : un chat-fusée à 5 pattes. Réussi. 🐱🚀",
-      "autonomie": "totale"
+      "autonomie": "totale",
+      "pluieOk": true
+    },
+    {
+      "id": "act_163",
+      "titre": "La danse de la pluie",
+      "accroche": "Bottes aux pieds, capuche sur la tête, et on danse sous les gouttes comme si personne ne regardait.",
+      "age": {
+        "min": 2,
+        "max": 9
+      },
+      "duree": {
+        "min": 5,
+        "ideal": 10,
+        "extensible": true
+      },
+      "lieux": [
+        "dehors"
+      ],
+      "humeurs": [
+        "afond",
+        "ronchon"
+      ],
+      "energie": "defoule",
+      "effortParent": "moyen",
+      "bazar": 1,
+      "type": "mouvement",
+      "materiel": [
+        {
+          "nom": "des bottes et un imperméable",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Équipez-vous : bottes, imper, capuche. La pluie devient un terrain de jeu.",
+        "Sortez et dansez sous les gouttes, tournez, sautez, tirez la langue pour attraper la pluie.",
+        "Inventez une « danse de la pluie » rigolote, de plus en plus déchaînée.",
+        "Rentrez au chaud pour un chocolat, joues rouges et sourire aux lèvres."
+      ],
+      "astuce": "Rien de tel qu'une bonne danse sous la pluie pour évacuer l'énergie (ou la mauvaise humeur). Prévois des habits secs au retour.",
+      "partage": "On a dansé sous la pluie aujourd'hui. Trempés et ravis. 🌧️💃",
+      "autonomie": "avec_lancement",
+      "pluieOk": true
+    },
+    {
+      "id": "act_164",
+      "titre": "La course de brindilles",
+      "accroche": "Deux bâtons lâchés dans le caniveau qui coule, et c'est la course jusqu'au prochain trottoir.",
+      "age": {
+        "min": 3,
+        "max": 9
+      },
+      "duree": {
+        "min": 10,
+        "ideal": 20,
+        "extensible": true
+      },
+      "lieux": [
+        "dehors"
+      ],
+      "humeurs": [
+        "ennui",
+        "afond"
+      ],
+      "energie": "neutre",
+      "effortParent": "faible",
+      "bazar": 0,
+      "type": "jeu",
+      "materiel": [
+        {
+          "nom": "des brindilles ou petites feuilles",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Repérez un filet d'eau qui coule : caniveau, rigole, ruisseau gonflé par la pluie.",
+        "Chacun choisit une brindille et la lâche en même temps à l'amont.",
+        "Courez à côté pour suivre les brindilles jusqu'à la ligne d'arrivée (une grille, un caillou).",
+        "Relancez avec de nouveaux « bateaux » : feuilles, pétales, petits bouts d'écorce."
+      ],
+      "astuce": "L'eau de pluie qui ruisselle transforme le moindre caniveau en circuit de course. Surveille juste la profondeur près des grilles.",
+      "partage": "Grand prix de brindilles dans le caniveau. Photo-finish. 🌿🏁",
+      "autonomie": "avec_lancement",
+      "pluieOk": true
+    },
+    {
+      "id": "act_165",
+      "titre": "Attrape-gouttes",
+      "accroche": "Langue tirée vers le ciel, gobelet tendu : à qui attrapera le plus de gouttes de pluie ?",
+      "age": {
+        "min": 2,
+        "max": 7
+      },
+      "duree": {
+        "min": 5,
+        "ideal": 10,
+        "extensible": true
+      },
+      "lieux": [
+        "dehors"
+      ],
+      "humeurs": [
+        "afond",
+        "ennui"
+      ],
+      "energie": "neutre",
+      "effortParent": "faible",
+      "bazar": 0,
+      "type": "jeu",
+      "materiel": [
+        {
+          "nom": "un gobelet ou un bol (facultatif)",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Sortez sous la pluie, bien couverts. Tendez la langue vers le ciel pour attraper les gouttes.",
+        "Puis chacun tend un gobelet : qui le remplit le plus vite ?",
+        "Comparez : combien de gouttes dans une minute ? Où pleut-il le plus fort ?",
+        "Écoutez le bruit de la pluie sur le gobelet, sur la capuche, sur les feuilles."
+      ],
+      "astuce": "Un pur moment de simplicité qui fait rire les petits. Le gobelet ajoute un mini-défi sans rien préparer.",
+      "partage": "Concours d'attrape-gouttes remporté haut la main. 👅🌧️",
+      "autonomie": "avec_lancement",
+      "pluieOk": true
+    },
+    {
+      "id": "act_166",
+      "titre": "La chasse aux vers de terre",
+      "accroche": "Après la pluie, ils sortent tous ! Mission : les repérer, les observer, et les remettre au travail.",
+      "age": {
+        "min": 3,
+        "max": 9
+      },
+      "duree": {
+        "min": 10,
+        "ideal": 20,
+        "extensible": true
+      },
+      "lieux": [
+        "dehors"
+      ],
+      "humeurs": [
+        "ennui",
+        "inspire"
+      ],
+      "energie": "calme",
+      "effortParent": "faible",
+      "bazar": 0,
+      "type": "exploration",
+      "materiel": [],
+      "sansMateriel": true,
+      "etapes": [
+        "Juste après la pluie, partez à la recherche des vers de terre sortis sur le sol mouillé.",
+        "Observez-les de près : comment ils bougent, où ils vont, à quelle vitesse.",
+        "Comptez combien vous en trouvez le long du chemin.",
+        "Règle de l'explorateur : on les repose délicatement sur la terre, ils font du bien au jardin."
+      ],
+      "astuce": "La pluie fait sortir les vers : c'est le moment parfait pour cette observation qui fascine les enfants. On respecte les petites bêtes.",
+      "partage": "Safari vers de terre après l'averse. 8 repérés, tous relâchés. 🪱🌧️",
+      "autonomie": "avec_lancement",
+      "pluieOk": true
+    },
+    {
+      "id": "act_167",
+      "titre": "La peinture qui coule",
+      "accroche": "On dessine à la craie sur le trottoir, la pluie s'en mêle, et les couleurs se transforment en aquarelle géante.",
+      "age": {
+        "min": 3,
+        "max": 9
+      },
+      "duree": {
+        "min": 10,
+        "ideal": 20,
+        "extensible": true
+      },
+      "lieux": [
+        "dehors"
+      ],
+      "humeurs": [
+        "inspire",
+        "pose"
+      ],
+      "energie": "calme",
+      "effortParent": "faible",
+      "bazar": 1,
+      "type": "creation",
+      "materiel": [
+        {
+          "nom": "des craies de trottoir",
+          "courant": false
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Sous un abri ou pendant une pluie fine, dessinez à la craie sur le sol.",
+        "Regardez la pluie diluer les couleurs et les faire couler : le dessin devient une aquarelle vivante.",
+        "Ajoutez des traits, mélangez les teintes, laissez la pluie « finir » l'œuvre.",
+        "Tout s'effacera au prochain gros orage — c'est éphémère, et c'est magique."
+      ],
+      "astuce": "La pluie devient collaboratrice de l'œuvre. Effet « waouh » garanti quand les couleurs se mettent à couler toutes seules.",
+      "partage": "Notre dessin à la craie s'est transformé en aquarelle sous la pluie. 🎨🌧️",
+      "autonomie": "avec_lancement",
+      "pluieOk": true
+    },
+    {
+      "id": "act_168",
+      "titre": "La symphonie de la pluie",
+      "accroche": "Sortez casseroles et boîtes sous l'auvent, et écoutez la pluie jouer sa musique sur chacune.",
+      "age": {
+        "min": 2,
+        "max": 8
+      },
+      "duree": {
+        "min": 10,
+        "ideal": 20,
+        "extensible": true
+      },
+      "lieux": [
+        "dehors"
+      ],
+      "humeurs": [
+        "pose",
+        "inspire"
+      ],
+      "energie": "calme",
+      "effortParent": "moyen",
+      "bazar": 1,
+      "type": "calme",
+      "materiel": [
+        {
+          "nom": "des casseroles, boîtes de conserve, saladiers en métal et en plastique",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Sous un abri (balcon, auvent, porche), alignez des récipients variés à la limite de la pluie.",
+        "Écoutez : la pluie fait un son différent sur le métal, le plastique, le saladier retourné.",
+        "Déplacez-les pour composer une « symphonie » de gouttes.",
+        "Fermez les yeux un instant et écoutez juste la pluie tomber : étonnamment apaisant."
+      ],
+      "astuce": "Transforme la pluie en instrument. Reste au sec sous l'abri, ce sont les récipients qui prennent l'eau.",
+      "partage": "Concert de pluie sur nos casseroles ce matin. 🌧️🥁",
+      "autonomie": "avec_lancement",
+      "pluieOk": true
+    },
+    {
+      "id": "act_169",
+      "titre": "La chasse à l'arc-en-ciel",
+      "accroche": "La pluie s'arrête, le soleil pointe : vite, à la recherche de l'arc-en-ciel et des flaques-miroirs !",
+      "age": {
+        "min": 2,
+        "max": 9
+      },
+      "duree": {
+        "min": 10,
+        "ideal": 20,
+        "extensible": true
+      },
+      "lieux": [
+        "dehors"
+      ],
+      "humeurs": [
+        "ennui",
+        "pose",
+        "inspire"
+      ],
+      "energie": "calme",
+      "effortParent": "faible",
+      "bazar": 0,
+      "type": "exploration",
+      "materiel": [],
+      "sansMateriel": true,
+      "etapes": [
+        "Dès que la pluie faiblit et que le soleil revient, sortez guetter l'arc-en-ciel dans le ciel.",
+        "Cherchez aussi les reflets : le ciel et les nuages dans les flaques, les gouttes qui brillent sur les feuilles.",
+        "Sautez dans une flaque-miroir pour « casser » le reflet, puis regardez-le se reformer.",
+        "Comptez les couleurs de l'arc-en-ciel si vous en trouvez un."
+      ],
+      "astuce": "Le moment magique de l'après-pluie. Même sans arc-en-ciel, les flaques-miroirs et les gouttes qui scintillent valent la sortie.",
+      "partage": "Chasse à l'arc-en-ciel après l'averse. Trouvé (et sauté dans 6 flaques). 🌈🌧️",
+      "autonomie": "avec_lancement",
+      "pluieOk": true
     }
   ]
 }

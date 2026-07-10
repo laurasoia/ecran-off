@@ -6,18 +6,13 @@ import { AGES, LIEUX, HUMEURS, TEMPS, QUOTA_GRATUIT } from '../data/vocab'
 
 export default function Accueil({
   criteres, setCriteres,
-  epuise, setEpuise,
-  pluie, setPluie,
-  solo, setSolo,
+  mode, onMode,
   ideesRestantes, estPremium, modeTest,
   onChercher,
 }) {
   const maj = (cle) => (val) => setCriteres((c) => ({ ...c, [cle]: val }))
   const pret = criteres.age && criteres.lieu && criteres.humeur && criteres.temps
   const [graineMascotte] = useState(() => Math.random().toString(36).slice(2))
-
-  // le mode pluie force "maison" : on grise le sélecteur de lieu quand il est actif
-  const lieuVerrouille = pluie
 
   return (
     <div className="max-w-md mx-auto px-5 pb-32 pt-8">
@@ -35,23 +30,23 @@ export default function Accueil({
         <p className="font-body font-bold text-nuit/60 mt-2">L'appli qui remplace l'appli.</p>
       </header>
 
-      {/* Modes spéciaux */}
+      {/* Modes spéciaux (un seul à la fois) */}
       <div className="grid grid-cols-3 gap-2 mb-7">
         <ModeToggle
-          actif={epuise}
-          onClick={() => setEpuise((v) => !v)}
+          actif={mode === 'epuise'}
+          onClick={() => onMode('epuise')}
           emoji="😮‍💨"
           label="Épuisé·e"
         />
         <ModeToggle
-          actif={pluie}
-          onClick={() => setPluie((v) => !v)}
+          actif={mode === 'pluie'}
+          onClick={() => onMode('pluie')}
           emoji="🌧️"
           label="Il pleut"
         />
         <ModeToggle
-          actif={solo}
-          onClick={() => setSolo((v) => !v)}
+          actif={mode === 'solo'}
+          onClick={() => onMode('solo')}
           emoji="🧩"
           label="En solo"
         />
@@ -65,16 +60,14 @@ export default function Accueil({
         onChange={maj('age')}
       />
 
-      <div className={lieuVerrouille ? 'opacity-40 pointer-events-none' : ''}>
-        <SelecteurChips
-          titre={lieuVerrouille ? 'Où ? (mode pluie → maison)' : 'Vous êtes où ?'}
-          options={LIEUX}
-          valeur={pluie ? 'maison' : criteres.lieu}
-          onChange={maj('lieu')}
-          colonnes={3}
-          vertical
-        />
-      </div>
+      <SelecteurChips
+        titre="Vous êtes où ?"
+        options={LIEUX}
+        valeur={criteres.lieu}
+        onChange={maj('lieu')}
+        colonnes={3}
+        vertical
+      />
 
       <SelecteurChips
         titre="L'humeur de l'enfant ?"

@@ -50,6 +50,18 @@ export default function Accueil({
           emoji="🧩"
           label="En solo"
         />
+        <ModeToggle
+          actif={mode === 'soir'}
+          onClick={() => onMode('soir')}
+          emoji="🌙"
+          label="Le soir"
+        />
+        <ModeToggle
+          actif={mode === 'fratrie'}
+          onClick={() => onMode('fratrie')}
+          emoji="🧑‍🤝‍🧑"
+          label="En fratrie"
+        />
       </div>
 
       {/* Les 4 questions */}

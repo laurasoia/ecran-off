@@ -36,8 +36,9 @@ export default function App() {
     const ageRep = AGES.find((a) => a.id === criteres.age)?.rep ?? null
     const dureeMax = TEMPS.find((t) => t.id === criteres.temps)?.max ?? null
     const lieu = criteres.lieu
-    return { ageRep, lieu, humeur: criteres.humeur, dureeMax, effortFaibleSeulement: epuise, soloSeulement: solo, pluieSeulement: pluie }
-  }, [criteres, pluie, epuise, solo])
+    const theme = (mode === 'soir' || mode === 'fratrie') ? mode : null
+    return { ageRep, lieu, humeur: criteres.humeur, dureeMax, effortFaibleSeulement: epuise, soloSeulement: solo, pluieSeulement: pluie, theme }
+  }, [criteres, pluie, epuise, solo, mode])
 
   const proposerUneIdee = useCallback(() => {
     if (quotaAtteint(QUOTA_GRATUIT, illimite)) {

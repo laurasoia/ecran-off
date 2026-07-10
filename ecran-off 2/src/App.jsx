@@ -17,6 +17,7 @@ export default function App() {
   const [criteres, setCriteres] = useState({ age: null, lieu: null, humeur: null, temps: null })
   const [epuise, setEpuise] = useState(false)
   const [pluie, setPluie] = useState(false)
+  const [solo, setSolo] = useState(false)
   const [activite, setActivite] = useState(null)
 
   // recalcul affiché du quota (re-render quand on tire)
@@ -33,8 +34,8 @@ export default function App() {
     const ageRep = AGES.find((a) => a.id === criteres.age)?.rep ?? null
     const dureeMax = TEMPS.find((t) => t.id === criteres.temps)?.max ?? null
     const lieu = pluie ? 'maison' : criteres.lieu
-    return { ageRep, lieu, humeur: criteres.humeur, dureeMax, effortFaibleSeulement: epuise }
-  }, [criteres, pluie, epuise])
+    return { ageRep, lieu, humeur: criteres.humeur, dureeMax, effortFaibleSeulement: epuise, soloSeulement: solo }
+  }, [criteres, pluie, epuise, solo])
 
   const proposerUneIdee = useCallback(() => {
     if (quotaAtteint(QUOTA_GRATUIT, illimite)) {
@@ -101,6 +102,8 @@ export default function App() {
         setEpuise={setEpuise}
         pluie={pluie}
         setPluie={setPluie}
+        solo={solo}
+        setSolo={setSolo}
         ideesRestantes={ideesRestantes}
         estPremium={estPremium}
         modeTest={MODE_TEST}

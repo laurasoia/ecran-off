@@ -8,6 +8,7 @@ export default function Accueil({
   criteres, setCriteres,
   epuise, setEpuise,
   pluie, setPluie,
+  solo, setSolo,
   ideesRestantes, estPremium, modeTest,
   onChercher,
 }) {
@@ -35,18 +36,24 @@ export default function Accueil({
       </header>
 
       {/* Modes spéciaux */}
-      <div className="flex gap-2.5 mb-7">
+      <div className="grid grid-cols-3 gap-2 mb-7">
         <ModeToggle
           actif={epuise}
           onClick={() => setEpuise((v) => !v)}
           emoji="😮‍💨"
-          label="Je suis épuisé·e"
+          label="Épuisé·e"
         />
         <ModeToggle
           actif={pluie}
           onClick={() => setPluie((v) => !v)}
           emoji="🌧️"
           label="Il pleut"
+        />
+        <ModeToggle
+          actif={solo}
+          onClick={() => setSolo((v) => !v)}
+          emoji="🧩"
+          label="En solo"
         />
       </div>
 
@@ -126,13 +133,15 @@ function ModeToggle({ actif, onClick, emoji, label }) {
       aria-pressed={actif}
       onClick={onClick}
       className={[
-        'flex-1 rounded-2xl px-3 py-2.5 text-sm font-body font-bold border-2 transition-all active:scale-[0.97]',
+        'rounded-2xl px-2 py-2.5 font-body font-bold border-2 transition-all active:scale-[0.97]',
+        'flex flex-col items-center justify-center gap-1 text-center',
         actif
           ? 'bg-nuit text-papier border-nuit'
           : 'bg-white text-nuit/70 border-creme2',
       ].join(' ')}
     >
-      <span className="mr-1">{emoji}</span>{label}
+      <span className="text-xl leading-none">{emoji}</span>
+      <span className="text-xs leading-tight">{label}</span>
     </button>
   )
 }

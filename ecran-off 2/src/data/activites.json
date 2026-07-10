@@ -1,6 +1,6 @@
 {
-  "version": "3.0",
-  "note": "Bibliothèque Écran OFF — 150 activités. Filtrer sur age × lieux × humeurs × duree, puis tirer au sort. Garder les IDs vus en localStorage pour éviter les répétitions.",
+  "version": "4.0",
+  "note": "Bibliothèque Écran OFF — 162 activités. Champ 'autonomie' (non/avec_lancement/totale) pour le filtre 'joue en solo'. Filtrer sur age × lieux × humeurs × duree, puis tirer au sort.",
   "vocabulaires": {
     "lieux": [
       "maison",
@@ -78,6 +78,20 @@
       "exploration",
       "calme",
       "defi"
+    ],
+    "autonomie": [
+      {
+        "id": "non",
+        "label": "Avec toi"
+      },
+      {
+        "id": "avec_lancement",
+        "label": "Tu lances, il continue"
+      },
+      {
+        "id": "totale",
+        "label": "Il joue seul"
+      }
     ]
   },
   "activites": [
@@ -122,7 +136,8 @@
         "Niveau boss : c'est toi le volcan, tu déplaces les îlots pendant qu'il saute."
       ],
       "astuce": "Si tu es vraiment crevé·e : assieds-toi sur le canapé et contente-toi de crier « LAAAVE » à intervalles aléatoires. Effet garanti.",
-      "partage": "On a survécu au sol-en-lave aujourd'hui. De justesse. 🌋🛋️"
+      "partage": "On a survécu au sol-en-lave aujourd'hui. De justesse. 🌋🛋️",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_002",
@@ -157,7 +172,8 @@
         "Le ronchon ne tient jamais plus de deux manches. C'est mathématique."
       ],
       "astuce": "Aucun matériel, marche aussi sur la banquette arrière dans les bouchons.",
-      "partage": "Concours de grimaces remporté haut la main. Enfin, perdu. C'était le but. 😝"
+      "partage": "Concours de grimaces remporté haut la main. Enfin, perdu. C'était le but. 😝",
+      "autonomie": "non"
     },
     {
       "id": "act_003",
@@ -201,7 +217,8 @@
         "On inverse les rôles. Laisse-le te tendre un truc douteux, c'est le sel du jeu."
       ],
       "astuce": "Active sans bazar et étonnamment apaisante avant le bain ou le coucher.",
-      "partage": "Nez officiellement certifié super-détective ce soir. 👃🕵️"
+      "partage": "Nez officiellement certifié super-détective ce soir. 👃🕵️",
+      "autonomie": "non"
     },
     {
       "id": "act_004",
@@ -253,7 +270,8 @@
         "Récompense : une fois finie, on a le droit d'y faire le goûter. Ou de t'y cacher pour avoir 10 min de paix."
       ],
       "astuce": "Tu peux la laisser montée jusqu'au soir : ça occupe pour le reste de la journée sans rien faire de plus.",
-      "partage": "Nouveau quartier construit dans le salon ce week-end. Architecte 5 ans. 🏕️✨"
+      "partage": "Nouveau quartier construit dans le salon ce week-end. Architecte 5 ans. 🏕️✨",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_005",
@@ -301,7 +319,8 @@
         "Inauguration : il te fait la visite guidée avec la voix sérieuse d'un vrai guide de musée."
       ],
       "astuce": "Photographie l'expo avant de tout ranger — ça fait une trace, et un super contenu à partager.",
-      "partage": "Visite privée du Musée du N'importe Quoi ce soir. Bouleversant. 🖼️🧦"
+      "partage": "Visite privée du Musée du N'importe Quoi ce soir. Bouleversant. 🖼️🧦",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_006",
@@ -341,7 +360,8 @@
         "Niveau expert : trouver une couleur « impossible » comme du violet ou du bleu. Le défi peut durer toute la balade."
       ],
       "astuce": "Parfait pour transformer un trajet pénible (« on marche encooore ») en mission. Marche en ville comme en forêt.",
-      "partage": "Arc-en-ciel ramassé caillou par caillou cet aprèm. 🌈🍃"
+      "partage": "Arc-en-ciel ramassé caillou par caillou cet aprèm. 🌈🍃",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_007",
@@ -384,7 +404,8 @@
         "Cérémonie finale : une couronne de feuilles ou d'herbe pour le champion, et l'hymne chanté n'importe comment."
       ],
       "astuce": "Idéal pour vider le réservoir d'énergie avant le retour au calme. Trois épreuves suffisent, pas besoin d'en faire dix.",
-      "partage": "Médaille d'or aux JO du jardin. Discipline : saut de flaque. 🥇🤸"
+      "partage": "Médaille d'or aux JO du jardin. Discipline : saut de flaque. 🥇🤸",
+      "autonomie": "non"
     },
     {
       "id": "act_008",
@@ -419,7 +440,8 @@
         "On prend une photo d'en haut — c'est éphémère, le vent ou le prochain passant l'effacera. C'est ça qui est beau."
       ],
       "astuce": "Zéro matériel, zéro bazar à ramener. L'activité dehors la plus reposante du lot.",
-      "partage": "Œuvre d'art posée au sol aujourd'hui. Durée de vie : jusqu'au prochain coup de vent. 🍂🌼"
+      "partage": "Œuvre d'art posée au sol aujourd'hui. Durée de vie : jusqu'au prochain coup de vent. 🍂🌼",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_009",
@@ -454,7 +476,8 @@
         "Mission finale ultra-secrète : ramener l'agent à la maison… sans que personne ne devine que c'était un espion."
       ],
       "astuce": "Transforme une balade obligatoire en aventure. Tu peux marcher tranquillement pendant qu'il fait tout le boulot.",
-      "partage": "Mission d'espionnage accomplie dans le quartier. Couverture intacte. 🕶️🚶"
+      "partage": "Mission d'espionnage accomplie dans le quartier. Couverture intacte. 🕶️🚶",
+      "autonomie": "non"
     },
     {
       "id": "act_010",
@@ -490,7 +513,8 @@
         "Celui qui craque a perdu. On compte les points sur tout le trajet."
       ],
       "astuce": "Le jeu de voiture parfait : aucune main requise, marche même au volant. Idéal pour désamorcer un ronchon en silence.",
-      "partage": "Une heure de route, zéro « oui », zéro « non ». Niveau diplomate. 🚗🤐"
+      "partage": "Une heure de route, zéro « oui », zéro « non ». Niveau diplomate. 🚗🤐",
+      "autonomie": "non"
     },
     {
       "id": "act_011",
@@ -526,7 +550,8 @@
         "Variante corsée : chaque phrase doit commencer par « Et soudain… ». L'histoire devient ingérable, et c'est parfait."
       ],
       "astuce": "Mangeur de kilomètres redoutable. Aucun matériel, marche aussi au coucher pour remplacer le dessin animé du soir.",
-      "partage": "Notre escargot a fini pilote de fusée. Logique. 🐌🚀"
+      "partage": "Notre escargot a fini pilote de fusée. Logique. 🐌🚀",
+      "autonomie": "non"
     },
     {
       "id": "act_012",
@@ -561,7 +586,8 @@
         "Le premier à compléter toute la liste a gagné. On relance avec une nouvelle liste aussitôt."
       ],
       "astuce": "Canalise un enfant surexcité en voiture sans que tu quittes la route des yeux. Express, mais relançable à l'infini.",
-      "partage": "Champion·ne du bingo de l'autoroute. A repéré 4 tracteurs. 🚜🏁"
+      "partage": "Champion·ne du bingo de l'autoroute. A repéré 4 tracteurs. 🚜🏁",
+      "autonomie": "non"
     },
     {
       "id": "act_013",
@@ -605,7 +631,8 @@
         "Niveau pro : lancer entre les jambes, ou les yeux fermés guidé à la voix."
       ],
       "astuce": "Un couloir suffit, ça ne casse rien, et ça marche aussi bien pour décrocher un ronchon en le faisant rire.",
-      "partage": "Strike au bowling de chaussettes ce soir. Ligue professionnelle. 🎳🧦"
+      "partage": "Strike au bowling de chaussettes ce soir. Ligue professionnelle. 🎳🧦",
+      "autonomie": "totale"
     },
     {
       "id": "act_014",
@@ -646,7 +673,8 @@
         "Vote final pour la tenue la plus réussie dans son ratage."
       ],
       "astuce": "Inverser l'objectif (faire moche exprès) débloque les enfants timides et désamorce les râleurs.",
-      "partage": "Fashion week à la maison. Le jury est sous le choc. 👗🥾"
+      "partage": "Fashion week à la maison. Le jury est sous le choc. 👗🥾",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_015",
@@ -698,7 +726,8 @@
         "Bonus : les créations sèchent à l'air en 2 jours (ou 1h au four à 90°C), et il pourra les peindre plus tard."
       ],
       "astuce": "Activité longue qui occupe vraiment. La pâte se conserve une semaine dans une boîte hermétique pour la ressortir un autre jour.",
-      "partage": "Sculpteur officiel de la maison. Sujet du jour : un escargot. Enfin, ça y ressemble. 🐌🎨"
+      "partage": "Sculpteur officiel de la maison. Sujet du jour : un escargot. Enfin, ça y ressemble. 🐌🎨",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_016",
@@ -742,7 +771,8 @@
         "Variante : il devine quel animal tu fais, puis c'est son tour."
       ],
       "astuce": "Parfaite en fin de journée pour faire redescendre la pression, lumières déjà tamisées avant le coucher.",
-      "partage": "Séance de cinéma d'ombres ce soir. Casting : un lapin et un canard. 🐰🎭"
+      "partage": "Séance de cinéma d'ombres ce soir. Casting : un lapin et un canard. 🐰🎭",
+      "autonomie": "non"
     },
     {
       "id": "act_017",
@@ -794,7 +824,8 @@
         "Transvaser d'un récipient à l'autre l'occupera tout seul un bon moment."
       ],
       "astuce": "Le grand classique anti-ennui des tout-petits. Prévois une serviette au sol et accepte d'avance qu'il y ait des éclaboussures.",
-      "partage": "Séance pêche aux trésors. Niveau d'eau au sol : modéré. 🌊🧸"
+      "partage": "Séance pêche aux trésors. Niveau d'eau au sol : modéré. 🌊🧸",
+      "autonomie": "non"
     },
     {
       "id": "act_018",
@@ -846,7 +877,8 @@
         "Défi final : faire en sorte que la bille atterrisse pile dans un gobelet."
       ],
       "astuce": "Le côté « ingénieur » accroche beaucoup les enfants qui s'ennuient. Chaque échec relance le jeu.",
-      "partage": "Grand prix de billes maison. Circuit construit en 100 % récup. 🏎️📚"
+      "partage": "Grand prix de billes maison. Circuit construit en 100 % récup. 🏎️📚",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_019",
@@ -891,7 +923,8 @@
         "Le clou du spectacle : on a le droit de tout faire tomber d'un coup à la fin. C'est non négociable."
       ],
       "astuce": "L'effondrement final libère autant que la construction — idéal pour un enfant à cran ou ronchon.",
-      "partage": "Tour de 14 boîtes de conserve. Puis BOUM. Les deux étaient géniaux. 🗼💥"
+      "partage": "Tour de 14 boîtes de conserve. Puis BOUM. Les deux étaient géniaux. 🗼💥",
+      "autonomie": "totale"
     },
     {
       "id": "act_020",
@@ -935,7 +968,8 @@
         "On déguste sa propre création. Étonnamment, ça fait manger des fruits sans négociation."
       ],
       "astuce": "Surveille la pique avec les plus petits (ou remplace par une paille rigide). Active et utile à la fois.",
-      "partage": "Brochettes maison signées chef de 5 ans. Vitamines validées. 🍓🍌"
+      "partage": "Brochettes maison signées chef de 5 ans. Vitamines validées. 🍓🍌",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_021",
@@ -982,7 +1016,8 @@
         "Laisse-le « lire » à son tour en inventant l'histoire à partir des images."
       ],
       "astuce": "L'antidote idéal à une fin de journée surchargée. Le nid peut rester en place pour la sieste.",
-      "partage": "Après-midi cocon et histoires. Personne ne voulait en sortir. 📚🛋️"
+      "partage": "Après-midi cocon et histoires. Personne ne voulait en sortir. 📚🛋️",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_022",
@@ -1021,7 +1056,8 @@
         "Corse le jeu : « statue d'animal », « statue de robot », à chaque pause."
       ],
       "astuce": "Trois chansons suffisent à bien vider le trop-plein d'énergie avant le repas ou le bain.",
-      "partage": "Statues musicales dans le salon. Figé en position de flamant rose. 🕺🦩"
+      "partage": "Statues musicales dans le salon. Figé en position de flamant rose. 🕺🦩",
+      "autonomie": "non"
     },
     {
       "id": "act_023",
@@ -1057,7 +1093,8 @@
         "Variante plus dure : au lieu d'un animal, un objet de la maison ou un personnage qu'il connaît."
       ],
       "astuce": "Zéro matériel, marche partout — table, voiture, salle d'attente. Idéal pour occuper un ronchon en douceur.",
-      "partage": "Partie de Qui suis-je acharnée. La réponse était : un ornithorynque. 🤔🦦"
+      "partage": "Partie de Qui suis-je acharnée. La réponse était : un ornithorynque. 🤔🦦",
+      "autonomie": "non"
     },
     {
       "id": "act_024",
@@ -1093,7 +1130,8 @@
         "Variante calme : aligner ensuite tous les objets trouvés pour faire un dégradé."
       ],
       "astuce": "Module l'énergie selon ton besoin : version course pour défouler, version tri pour apaiser. Parfait pour les petits.",
-      "partage": "A trouvé 6 objets bleus en un temps record. Champion de la maison. 🔵🏃"
+      "partage": "A trouvé 6 objets bleus en un temps record. Champion de la maison. 🔵🏃",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_025",
@@ -1128,7 +1166,8 @@
         "Débrief de fin de mission avec une poignée de main très sérieuse d'agent secret."
       ],
       "astuce": "Oui, c'est du rangement déguisé. Non, ils ne s'en rendent pas compte. De rien.",
-      "partage": "Mission rangement bouclée en 3 minutes chrono. L'agent a assuré. 🕵️🧸"
+      "partage": "Mission rangement bouclée en 3 minutes chrono. L'agent a assuré. 🕵️🧸",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_026",
@@ -1168,7 +1207,8 @@
         "Pour aller plus loin : modifier les ailes et observer comment le vol change."
       ],
       "astuce": "Un couloir dégagé suffit. Le pliage occupe autant que le lancer, et ça calme un enfant survolté en le concentrant.",
-      "partage": "Championnat d'avions en papier. Record du couloir : 8 mètres. ✈️📄"
+      "partage": "Championnat d'avions en papier. Record du couloir : 8 mètres. ✈️📄",
+      "autonomie": "totale"
     },
     {
       "id": "act_027",
@@ -1216,7 +1256,8 @@
         "Fin de séance : chaque doudou est bordé pour une sieste réparatrice."
       ],
       "astuce": "Activité longue, calme et autonome : pendant qu'il chouchoute ses peluches, tu as un vrai moment de répit.",
-      "partage": "Le spa des doudous a ouvert ses portes. Clientèle très détendue. 🧸💆"
+      "partage": "Le spa des doudous a ouvert ses portes. Clientèle très détendue. 🧸💆",
+      "autonomie": "totale"
     },
     {
       "id": "act_028",
@@ -1260,7 +1301,8 @@
         "Celui qui a le plus de paires à la fin gagne."
       ],
       "astuce": "Adapte la difficulté au nombre de paires. Calme et concentré, parfait pour faire baisser le rythme.",
-      "partage": "Bataille de mémoire à la maison. Battu·e par un enfant de 5 ans. Encore. 🧠🥤"
+      "partage": "Bataille de mémoire à la maison. Battu·e par un enfant de 5 ans. Encore. 🧠🥤",
+      "autonomie": "non"
     },
     {
       "id": "act_029",
@@ -1313,7 +1355,8 @@
         "Bonus : la vaisselle est vraiment propre à la fin. Tout le monde y gagne."
       ],
       "astuce": "Mets un tablier ou des vêtements qui craignent l'eau, une serviette au sol, et laisse-le tranquille un bon moment.",
-      "partage": "Plongeur officiel du restaurant familial. Très investi. 🫧🍽️"
+      "partage": "Plongeur officiel du restaurant familial. Très investi. 🫧🍽️",
+      "autonomie": "non"
     },
     {
       "id": "act_030",
@@ -1357,7 +1400,8 @@
         "Lecture à voix haute en faisant les voix. On peut enchaîner sur la « page 2 » des aventures du héros."
       ],
       "astuce": "Active la créativité sans bazar. Garde les planches : elles font une collection dont les enfants sont très fiers.",
-      "partage": "Première BD publiée à la maison. Héros : une patate aventurière. 🥔📖"
+      "partage": "Première BD publiée à la maison. Héros : une patate aventurière. 🥔📖",
+      "autonomie": "totale"
     },
     {
       "id": "act_031",
@@ -1405,7 +1449,8 @@
         "Inversez les rôles, ou ajoutez d'autres convives (peluches, autre parent)."
       ],
       "astuce": "Jeu de rôle riche et long qui tourne presque tout seul une fois lancé. Tu peux « manger » assis sans bouger.",
-      "partage": "Dîner cinq étoiles servi à la maison. Le chef a 6 ans. 🍴⭐"
+      "partage": "Dîner cinq étoiles servi à la maison. Le chef a 6 ans. 🍴⭐",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_032",
@@ -1445,7 +1490,8 @@
         "Une fois trouvé, on inverse : c'est lui qui cache et qui te guide."
       ],
       "astuce": "Marche dans une seule pièce, sans rien préparer. Le « tu brûles » final déclenche toujours des éclats de rire.",
-      "partage": "Chasse au doudou perdu. Retrouvé derrière le rideau. Ouf. 🧸🔥"
+      "partage": "Chasse au doudou perdu. Retrouvé derrière le rideau. Ouf. 🧸🔥",
+      "autonomie": "non"
     },
     {
       "id": "act_033",
@@ -1489,7 +1535,8 @@
         "Photo officielle du personnage avant de tout ranger."
       ],
       "astuce": "Pas besoin de vrais déguisements : l'imagination fait tout le travail. Range au fur et à mesure pour limiter le bazar.",
-      "partage": "Aujourd'hui à la maison : un chevalier et une magicienne. Mission accomplie. 🦸🧙"
+      "partage": "Aujourd'hui à la maison : un chevalier et une magicienne. Mission accomplie. 🦸🧙",
+      "autonomie": "totale"
     },
     {
       "id": "act_034",
@@ -1533,7 +1580,8 @@
         "Variante coopérative : traverser sans tomber, vous vous chronométrez ensemble."
       ],
       "astuce": "La craie est le seul achat utile (quelques centimes). La marelle reste dessinée pour les jours suivants.",
-      "partage": "Marelle géante dessinée devant la maison. Format escargot. 🌀🦶"
+      "partage": "Marelle géante dessinée devant la maison. Format escargot. 🌀🦶",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_035",
@@ -1568,7 +1616,8 @@
         "Observez-les de près : les cornes, la coquille, la trace brillante. On relâche les athlètes à la fin."
       ],
       "astuce": "Apprend la patience et l'observation, dans le calme. On remet toujours les petites bêtes là où on les a trouvées.",
-      "partage": "Grand prix d'escargots ce matin. Durée de la course : 12 minutes. 🐌🏁"
+      "partage": "Grand prix d'escargots ce matin. Durée de la course : 12 minutes. 🐌🏁",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_036",
@@ -1603,7 +1652,8 @@
         "Organisez une course : quel bateau arrive le premier au « pont » (un caillou en travers) ?"
       ],
       "astuce": "Gratuit, poétique, et ça canalise. Attention juste à la profondeur de l'eau avec les plus petits.",
-      "partage": "Régate de bateaux de feuilles sur le ruisseau. Capitaine ravi. ⛵🍂"
+      "partage": "Régate de bateaux de feuilles sur le ruisseau. Capitaine ravi. ⛵🍂",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_037",
@@ -1637,7 +1687,8 @@
         "Variante : faire des formes avec son ombre (un géant, un animal) que l'autre doit imiter."
       ],
       "astuce": "Aucun matériel, juste du soleil. Parfait pour brûler de l'énergie en 10 minutes sur le trajet de l'école.",
-      "partage": "Bataille d'ombres au soleil. Impossible d'attraper la sienne. ☀️🏃"
+      "partage": "Bataille d'ombres au soleil. Impossible d'attraper la sienne. ☀️🏃",
+      "autonomie": "non"
     },
     {
       "id": "act_038",
@@ -1685,7 +1736,8 @@
         "Il te sert son chef-d'œuvre. Tu fais semblant de te régaler avec conviction."
       ],
       "astuce": "Prévois des vêtements qui craignent vraiment et un tuyau pour le rinçage après. Occupation longue et autonome garantie.",
-      "partage": "Grand chef de la cuisine de boue. Spécialité : tarte aux cailloux. 🍂🥧"
+      "partage": "Grand chef de la cuisine de boue. Spécialité : tarte aux cailloux. 🍂🥧",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_039",
@@ -1724,7 +1776,8 @@
         "Restez à observer la lente transformation des formes. C'est étonnamment apaisant pour tout le monde."
       ],
       "astuce": "Le moment de calme parfait quand vous êtes tous les deux fatigués. Toi aussi tu as le droit de souffler.",
-      "partage": "Après-midi à lire dans les nuages. On a vu un dragon mangeur de glace. ☁️🐉"
+      "partage": "Après-midi à lire dans les nuages. On a vu un dragon mangeur de glace. ☁️🐉",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_040",
@@ -1759,7 +1812,8 @@
         "Variante plus calme : « le furet immobile », celui qui se cache doit rester parfaitement figé même à découvert."
       ],
       "astuce": "Fixe bien les limites de la zone avant de commencer. Classique mais toujours efficace pour dépenser de l'énergie dehors.",
-      "partage": "Partie de cache-cache au parc. Cachette imbattable derrière le grand chêne. 🌳🙈"
+      "partage": "Partie de cache-cache au parc. Cachette imbattable derrière le grand chêne. 🌳🙈",
+      "autonomie": "non"
     },
     {
       "id": "act_041",
@@ -1794,7 +1848,8 @@
         "Une fois fini, on le parcourt ensemble en respectant ses règles secrètes."
       ],
       "astuce": "Mêle création et balade. Aucun matériel, juste ce qu'offre le sol. Apaisant et concentré.",
-      "partage": "Chemin secret tracé dans la forêt. Mène à un trésor (un gland). 🌲➡️"
+      "partage": "Chemin secret tracé dans la forêt. Mène à un trésor (un gland). 🌲➡️",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_042",
@@ -1838,7 +1893,8 @@
         "Règle d'or de l'explorateur : on remet tout le monde exactement où on l'a trouvé."
       ],
       "astuce": "Développe l'observation et le respect du vivant. Une loupe à quelques euros décuple l'émerveillement.",
-      "partage": "Safari petites bêtes au jardin. 5 espèces repérées, 0 dérangée. 🔍🐞"
+      "partage": "Safari petites bêtes au jardin. 5 espèces repérées, 0 dérangée. 🔍🐞",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_043",
@@ -1873,7 +1929,8 @@
         "Chronométrez ou comptez les traversées réussies d'affilée."
       ],
       "astuce": "Transforme un trajet à pied ennuyeux en parcours de défis. Choisis des bordures basses et sûres.",
-      "partage": "A traversé le pont du vide sans tomber. Équilibriste confirmé. 🤸🚶"
+      "partage": "A traversé le pont du vide sans tomber. Équilibriste confirmé. 🤸🚶",
+      "autonomie": "totale"
     },
     {
       "id": "act_044",
@@ -1907,7 +1964,8 @@
         "Variante : essayer d'identifier la direction d'où vient chaque son."
       ],
       "astuce": "Un vrai exercice de pleine conscience déguisé en jeu. Idéal pour faire redescendre la pression en douceur.",
-      "partage": "Oreilles en mode super-pouvoir au parc. 9 sons différents repérés. 👂🍃"
+      "partage": "Oreilles en mode super-pouvoir au parc. 9 sons différents repérés. 👂🍃",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_045",
@@ -1951,7 +2009,8 @@
         "Terminez par un petit jeu calme sur place : devinettes, observation des nuages."
       ],
       "astuce": "Zéro effort de préparation, le simple changement de décor transforme un goûter banal en petit événement.",
-      "partage": "Pique-nique surprise dans le jardin. Dessert mangé en premier, évidemment. 🧺🌳"
+      "partage": "Pique-nique surprise dans le jardin. Dessert mangé en premier, évidemment. 🧺🌳",
+      "autonomie": "non"
     },
     {
       "id": "act_046",
@@ -1985,7 +2044,8 @@
         "Les lettres rares (K, W, X, Y, Z) deviennent le grand défi de fin de trajet."
       ],
       "astuce": "Mange-kilomètres redoutable, sans aucune main mobilisée. Adapte : version chiffres pour les plus jeunes.",
-      "partage": "Alphabet de la route complété avant l'arrivée. Le Z a failli avoir notre peau. 🚗🔤"
+      "partage": "Alphabet de la route complété avant l'arrivée. Le Z a failli avoir notre peau. 🚗🔤",
+      "autonomie": "non"
     },
     {
       "id": "act_047",
@@ -2021,7 +2081,8 @@
         "Plus les options sont absurdes, mieux ça marche."
       ],
       "astuce": "Désamorce un ronchon sans en avoir l'air : impossible de bouder en débattant entre manger des spaghettis sucrés ou des glaces salées.",
-      "partage": "Débat de fond en voiture : voler ou être invisible ? Toujours pas tranché. 🤔🦸"
+      "partage": "Débat de fond en voiture : voler ou être invisible ? Toujours pas tranché. 🤔🦸",
+      "autonomie": "non"
     },
     {
       "id": "act_048",
@@ -2056,7 +2117,8 @@
         "Variante : chanter de plus en plus fort, puis tout doucement, puis en accéléré."
       ],
       "astuce": "Canalise l'énergie d'un enfant surexcité à l'arrière sans que tu lâches le volant. Le chauffeur ne tape pas le rythme, évidemment.",
-      "partage": "Concert improvisé sur l'autoroute. Le groupe s'appelle Les Bouchons. 🎤🥁"
+      "partage": "Concert improvisé sur l'autoroute. Le groupe s'appelle Les Bouchons. 🎤🥁",
+      "autonomie": "non"
     },
     {
       "id": "act_049",
@@ -2091,7 +2153,8 @@
         "Quand ça devient trop facile, changez pour une couleur plus rare (orange, violet)."
       ],
       "astuce": "Très simple, parfait pour les plus petits, et relançable à l'infini en changeant juste la couleur.",
-      "partage": "Chasse au rouge sur la route. 14 voitures rouges et beaucoup de cris. 🔴🚙"
+      "partage": "Chasse au rouge sur la route. 14 voitures rouges et beaucoup de cris. 🔴🚙",
+      "autonomie": "non"
     },
     {
       "id": "act_050",
@@ -2127,7 +2190,8 @@
         "Variante : devine la réponse de l'autre avant qu'il la donne."
       ],
       "astuce": "Conversation douce et complice, parfaite pour un trajet calme ou un moment câlin. On apprend plein de choses sur son enfant.",
-      "partage": "Portrait chinois en voiture. Mon enfant serait un dauphin qui mange des glaces. 🐬🍦"
+      "partage": "Portrait chinois en voiture. Mon enfant serait un dauphin qui mange des glaces. 🐬🍦",
+      "autonomie": "non"
     },
     {
       "id": "act_051",
@@ -2175,7 +2239,8 @@
         "L'attente devient un jeu : on guette par la vitre du four. Puis grande dégustation."
       ],
       "astuce": "Activité longue qui mobilise vraiment, et il y a un goûter à la clé. Prévois de la farine partout, ça fait partie du deal.",
-      "partage": "Fournée de cookies maison cet après-midi. Pâtissier en herbe très concentré. 🍪👨‍🍳"
+      "partage": "Fournée de cookies maison cet après-midi. Pâtissier en herbe très concentré. 🍪👨‍🍳",
+      "autonomie": "non"
     },
     {
       "id": "act_052",
@@ -2228,7 +2293,8 @@
         "On recommence en changeant les doses pour voir ce qui fait la plus grosse éruption."
       ],
       "astuce": "La petite expérience qui fascine à tous les âges. Fais-la dans l'évier ou sur un plateau, le nettoyage est immédiat.",
-      "partage": "Éruption volcanique dans la cuisine. La science, c'est trop bien. 🌋🧪"
+      "partage": "Éruption volcanique dans la cuisine. La science, c'est trop bien. 🌋🧪",
+      "autonomie": "non"
     },
     {
       "id": "act_053",
@@ -2276,7 +2342,8 @@
         "Affichez l'œuvre une fois sèche. Le processus compte plus que le résultat."
       ],
       "astuce": "Mets une vieille nappe et des habits qui craignent. Pour les plus petits, le yaourt coloré remplace la peinture sans risque.",
-      "partage": "Séance peinture sans pinceau. Méthode : surtout les doigts. 🎨🖐️"
+      "partage": "Séance peinture sans pinceau. Méthode : surtout les doigts. 🎨🖐️",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_054",
@@ -2316,7 +2383,8 @@
         "Niveau plus dur pour les grands : des mots abstraits (la peur, les vacances, le bruit)."
       ],
       "astuce": "Marche dès qu'on sait tenir un crayon. Plus tes dessins sont catastrophiques, plus les fous rires sont garantis.",
-      "partage": "Pictionary à la maison. Mon « cheval » ressemblait à un grille-pain. 🐴✏️"
+      "partage": "Pictionary à la maison. Mon « cheval » ressemblait à un grille-pain. 🐴✏️",
+      "autonomie": "non"
     },
     {
       "id": "act_055",
@@ -2351,7 +2419,8 @@
         "Pour les grands : mimer un film ou une chanson qu'ils connaissent."
       ],
       "astuce": "Zéro matériel, défoule un peu sans être trop agité. Les plus jeunes adorent voir les adultes se ridiculiser.",
-      "partage": "Soirée mimes à la maison. Personne n'a deviné mon « hippopotame qui danse ». 🦛🎭"
+      "partage": "Soirée mimes à la maison. Personne n'a deviné mon « hippopotame qui danse ». 🦛🎭",
+      "autonomie": "non"
     },
     {
       "id": "act_056",
@@ -2387,7 +2456,8 @@
         "Accélère le rythme et glisse des pièges : c'est là que ça devient drôle."
       ],
       "astuce": "Parfait pour canaliser et faire bouger en même temps. Glisse des ordres calmes vers la fin pour faire redescendre.",
-      "partage": "Partie de Jacques a dit endiablée. Piégé·e sur « tape dans tes mains ». 🙌😄"
+      "partage": "Partie de Jacques a dit endiablée. Piégé·e sur « tape dans tes mains ». 🙌😄",
+      "autonomie": "non"
     },
     {
       "id": "act_057",
@@ -2426,7 +2496,8 @@
         "Comptez ensemble combien de touches vous tenez sans qu'il tombe, et battez votre record."
       ],
       "astuce": "Un ballon de baudruche est léger et inoffensif pour le mobilier : idéal pour défouler en intérieur sans casse.",
-      "partage": "Record battu : 47 touches sans que le ballon touche le sol. 🎈🔥"
+      "partage": "Record battu : 47 touches sans que le ballon touche le sol. 🎈🔥",
+      "autonomie": "totale"
     },
     {
       "id": "act_058",
@@ -2466,7 +2537,8 @@
         "Variante : course en marche arrière, ou en transportant une peluche sur la tête."
       ],
       "astuce": "Dégage l'espace de tout obstacle dur. Excellente pour vider un réservoir d'énergie débordant.",
-      "partage": "Course en sac dans le salon. Beaucoup de chutes, beaucoup de rires. 🦘🛏️"
+      "partage": "Course en sac dans le salon. Beaucoup de chutes, beaucoup de rires. 🦘🛏️",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_059",
@@ -2506,7 +2578,8 @@
         "Le dernier à réussir un passage gagne. Tes propres tentatives valent le spectacle."
       ],
       "astuce": "Le rythme et le défi physique décrochent même un enfant ronchon. À toi de jouer le présentateur survolté.",
-      "partage": "Tournoi de limbo dans le salon. Mon dos a dit non. 🕺🎶"
+      "partage": "Tournoi de limbo dans le salon. Mon dos a dit non. 🕺🎶",
+      "autonomie": "non"
     },
     {
       "id": "act_060",
@@ -2554,7 +2627,8 @@
         "Nouez les deux bouts : voilà un collier ou un bracelet à offrir ou à porter fièrement."
       ],
       "astuce": "Travaille la motricité fine dans le calme. Pour les plus petits, choisis des pâtes à gros trou (rigatoni).",
-      "partage": "Atelier bijoux ce matin. Collier de macaronis offert avec amour. 📿🍝"
+      "partage": "Atelier bijoux ce matin. Collier de macaronis offert avec amour. 📿🍝",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_061",
@@ -2606,7 +2680,8 @@
         "Plusieurs formes et couleurs = compositions infinies."
       ],
       "astuce": "Le papier ainsi décoré fait un super emballage cadeau personnalisé. Garde-le pour le prochain anniversaire.",
-      "partage": "Fabrique de tampons-patate. Papier cadeau 100 % fait main. 🥔⭐"
+      "partage": "Fabrique de tampons-patate. Papier cadeau 100 % fait main. 🥔⭐",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_062",
@@ -2650,7 +2725,8 @@
         "Une fois finie, accrochez-la dans le couloir : une vraie œuvre collective."
       ],
       "astuce": "Occupation longue, calme et autonome. Pendant qu'il dessine, tu peux souffler à côté (ou colorier ta propre zone tranquillement).",
-      "partage": "Fresque géante déroulée dans le salon. Thème : la jungle sous-marine (oui oui). 🖍️🌊"
+      "partage": "Fresque géante déroulée dans le salon. Thème : la jungle sous-marine (oui oui). 🖍️🌊",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_063",
@@ -2694,7 +2770,8 @@
         "Le dernier indice mène au trésor caché. Triomphe garanti."
       ],
       "astuce": "Quelques minutes de préparation pour de longues minutes d'aventure. Tu peux ensuite te poser pendant qu'il enquête.",
-      "partage": "Chasse au trésor improvisée à la maison. Trésor : un paquet de gâteaux. 🗺️💎"
+      "partage": "Chasse au trésor improvisée à la maison. Trésor : un paquet de gâteaux. 🗺️💎",
+      "autonomie": "non"
     },
     {
       "id": "act_064",
@@ -2729,7 +2806,8 @@
         "On inverse : c'est lui qui modifie quelque chose et toi qui cherches."
       ],
       "astuce": "Aiguise le sens de l'observation, dans le calme et sans rien préparer. Marche aussi en salle d'attente.",
-      "partage": "Champion·ne du « qu'est-ce qui a changé ». A repéré une chaussette manquante en 2 secondes. 👀🧦"
+      "partage": "Champion·ne du « qu'est-ce qui a changé ». A repéré une chaussette manquante en 2 secondes. 👀🧦",
+      "autonomie": "non"
     },
     {
       "id": "act_065",
@@ -2764,7 +2842,8 @@
         "On inverse les rôles. Plus on ralentit, plus c'est hypnotique et drôle."
       ],
       "astuce": "Activité calme et connectée, sans aucun matériel. Le ralenti la rend reposante et concentrée.",
-      "partage": "Jeu du miroir ce soir. Synchronisation quasi parfaite. 🪞🤸"
+      "partage": "Jeu du miroir ce soir. Synchronisation quasi parfaite. 🪞🤸",
+      "autonomie": "non"
     },
     {
       "id": "act_066",
@@ -2798,7 +2877,8 @@
         "Termine en douceur : « on revient tout doucement dans la pièce, on bouge les doigts, on ouvre les yeux »."
       ],
       "astuce": "L'outil parfait avant la sieste ou le coucher, ou pour apaiser une grosse crise une fois retombée. Toi aussi tu respires.",
-      "partage": "Voyage imaginaire sur une plage ce soir. Atterrissage en douceur. 🏝️😌"
+      "partage": "Voyage imaginaire sur une plage ce soir. Atterrissage en douceur. 🏝️😌",
+      "autonomie": "non"
     },
     {
       "id": "act_067",
@@ -2838,7 +2918,8 @@
         "Quand ça s'écroule (ça arrive), on rit et on recommence en visant plus haut."
       ],
       "astuce": "Exige calme et concentration : parfait pour canaliser un grand énervé une fois l'énergie un peu retombée.",
-      "partage": "Château de cartes à 4 étages avant l'effondrement. Patience de moine. 🏯🃏"
+      "partage": "Château de cartes à 4 étages avant l'effondrement. Patience de moine. 🏯🃏",
+      "autonomie": "totale"
     },
     {
       "id": "act_068",
@@ -2882,7 +2963,8 @@
         "Dégustation et notation très sérieuses, avec verdict du jury (toi)."
       ],
       "astuce": "Demande ta présence active (sécurité), mais c'est une vraie aventure créative et un repas en bonus. À réserver aux moments où tu as l'énergie.",
-      "partage": "Concours de cuisine maison. Plat gagnant : tartines banane-fromage. Audacieux. 👨‍🍳🏆"
+      "partage": "Concours de cuisine maison. Plat gagnant : tartines banane-fromage. Audacieux. 👨‍🍳🏆",
+      "autonomie": "non"
     },
     {
       "id": "act_069",
@@ -2926,7 +3008,8 @@
         "On admire l'œuvre, puis on la mange. Magie : les fruits passent tout seuls."
       ],
       "astuce": "Astuce détournée pour faire manger des fruits sans bataille. Le plus dur, c'est qu'il accepte de manger son chef-d'œuvre.",
-      "partage": "Bonhomme en fruits réalisé puis dévoré. Bilan vitamines : excellent. 🍓😄"
+      "partage": "Bonhomme en fruits réalisé puis dévoré. Bilan vitamines : excellent. 🍓😄",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_070",
@@ -2970,7 +3053,8 @@
         "Il devine, puis on vérifie. On change d'objet et on recommence."
       ],
       "astuce": "Jeu sensoriel et calme. Prépare 5-6 objets à l'avance pour enchaîner sans interruption.",
-      "partage": "Jeu de la boîte mystère. A reconnu une pomme de pin les yeux fermés. 📦🤚"
+      "partage": "Jeu de la boîte mystère. A reconnu une pomme de pin les yeux fermés. 📦🤚",
+      "autonomie": "non"
     },
     {
       "id": "act_071",
@@ -3019,7 +3103,8 @@
         "Variante : tracer son contour grandeur nature (il s'allonge, tu suis sa silhouette… ah non, ça c'est au sol — au mur, il colle le dos et tu traces)."
       ],
       "astuce": "Le grand format et le geste ample aident un enfant ronchon ou tendu à relâcher la pression sans crier.",
-      "partage": "Mur d'art libre à la maison. Beaucoup de spirales, beaucoup mieux après. 🖊️🧱"
+      "partage": "Mur d'art libre à la maison. Beaucoup de spirales, beaucoup mieux après. 🖊️🧱",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_072",
@@ -3059,7 +3144,8 @@
         "Quand le parcours est prêt, compte à rebours et POUSSE le premier."
       ],
       "astuce": "Mélange concentration (montage) et défoulement (la chute finale). Plus le parcours est long, plus la satisfaction est grande.",
-      "partage": "Parcours de dominos de 30 pièces. La chute valait toute l'attente. 🁢➡️"
+      "partage": "Parcours de dominos de 30 pièces. La chute valait toute l'attente. 🁢➡️",
+      "autonomie": "totale"
     },
     {
       "id": "act_073",
@@ -3103,7 +3189,8 @@
         "Inventez des péripéties : un tunnel (on baisse la tête), un arrêt pour le goûter."
       ],
       "astuce": "Un grand classique du jeu d'imagination pour les petits, avec ce que tu as déjà à la maison.",
-      "partage": "Voyage en train dans le salon. Terminus : la chambre. 🚂🪑"
+      "partage": "Voyage en train dans le salon. Terminus : la chambre. 🚂🪑",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_074",
@@ -3139,7 +3226,8 @@
         "Manche revanche immédiate, parce qu'il en redemandera."
       ],
       "astuce": "Imparable contre la bouderie : impossible de rester ronchon quand on lutte contre le fou rire. Aucun matériel.",
-      "partage": "Concours de sérieux perdu en 4 secondes. Fou rire général. 😂🤝"
+      "partage": "Concours de sérieux perdu en 4 secondes. Fou rire général. 😂🤝",
+      "autonomie": "non"
     },
     {
       "id": "act_075",
@@ -3183,7 +3271,8 @@
         "Complexifiez le circuit au fil du jeu avec de nouveaux obstacles dessinés."
       ],
       "astuce": "Allie création et activité physique. À faire dans un endroit fermé à la circulation. La craie part à la première pluie.",
-      "partage": "Circuit routier dessiné dans la cour. Permis de trottinette validé. 🛴🛣️"
+      "partage": "Circuit routier dessiné dans la cour. Permis de trottinette validé. 🛴🛣️",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_076",
@@ -3223,7 +3312,8 @@
         "Prenez une photo d'en haut : la prochaine pluie effacera tout, et c'est très bien ainsi."
       ],
       "astuce": "Dessiner en grand et au sol change tout par rapport à la feuille. Calme, sans bazar à ranger, juste un peu de craie sur les mains.",
-      "partage": "Fresque de trottoir signée toute la famille. Éphémère et géante. 🌈🖍️"
+      "partage": "Fresque de trottoir signée toute la famille. Éphémère et géante. 🌈🖍️",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_077",
@@ -3264,7 +3354,8 @@
         "De retour, étalez la collection, triez par couleur ou par type, et donnez un nom à chaque trésor."
       ],
       "astuce": "Transforme une longue balade en quête. Le tri et l'exposition au retour prolongent encore l'activité.",
-      "partage": "Collection de trésors de la forêt rapportée à la maison. Fierté maximale. 🍂🪶"
+      "partage": "Collection de trésors de la forêt rapportée à la maison. Fierté maximale. 🍂🪶",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_078",
@@ -3313,7 +3404,8 @@
         "Variez les couleurs, les feuilles, et composez un tableau de plusieurs empreintes."
       ],
       "astuce": "Marche aussi avec des pièces de monnaie, des écorces, des surfaces texturées. Pont parfait entre une balade et un atelier au calme.",
-      "partage": "Empreintes de feuilles au crayon. La nature en version dessin. 🍃✏️"
+      "partage": "Empreintes de feuilles au crayon. La nature en version dessin. 🍃✏️",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_079",
@@ -3353,7 +3445,8 @@
         "Inaugurez la cabane : on rentre dedans, on lui donne un nom, on monte la garde."
       ],
       "astuce": "Projet long et physique, parfait pour une vraie sortie nature. Utilisez uniquement du bois déjà au sol, sans rien casser.",
-      "partage": "Cabane d'aventurier construite en forêt. Architecte 7 ans, très fier. 🛖🌲"
+      "partage": "Cabane d'aventurier construite en forêt. Architecte 7 ans, très fier. 🛖🌲",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_080",
@@ -3388,7 +3481,8 @@
         "Variante les yeux fermés (toi qui le guides) : deviner la surface au seul toucher des pieds."
       ],
       "astuce": "Éveil sensoriel apaisant. Vérifie d'abord le sol (pas de verre, d'épines) pour des pieds nus en toute sécurité.",
-      "partage": "Parcours sensoriel pieds nus au jardin. Verdict : l'herbe gagne. 🦶🌱"
+      "partage": "Parcours sensoriel pieds nus au jardin. Verdict : l'herbe gagne. 🦶🌱",
+      "autonomie": "non"
     },
     {
       "id": "act_081",
@@ -3433,7 +3527,8 @@
         "Reculez la ligne à chaque réussite pour corser, ou empilez plus haut."
       ],
       "astuce": "Faire tout dégringoler libère bien : efficace pour un enfant énervé ou ronchon. Marche dehors comme dans un couloir.",
-      "partage": "Chamboule-tout maison. Pyramide rasée en un lancer. 🎯🥫"
+      "partage": "Chamboule-tout maison. Pyramide rasée en un lancer. 🎯🥫",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_082",
@@ -3467,7 +3562,8 @@
         "Le but : arriver jusqu'à toi et te toucher sans se faire prendre."
       ],
       "astuce": "Le grand classique qui dépense de l'énergie tout en travaillant le contrôle de soi (se figer net). Une cour ou un parc suffit.",
-      "partage": "Partie de 1-2-3 Soleil au parc. Statue parfaite à chaque coup. ☀️🧍"
+      "partage": "Partie de 1-2-3 Soleil au parc. Statue parfaite à chaque coup. ☀️🧍",
+      "autonomie": "non"
     },
     {
       "id": "act_083",
@@ -3501,7 +3597,8 @@
         "Variante : la souris fige-figée doit être « délivrée » d'une tape pour repartir."
       ],
       "astuce": "Le défouloir le plus direct qui soit. À réserver aux jours où TU as aussi l'énergie de courir un peu (effort parent élevé, on ne va pas se mentir).",
-      "partage": "Course-poursuite endiablée au parc. Bilan : enfant ravi, parent essoufflé. 🏃💨"
+      "partage": "Course-poursuite endiablée au parc. Bilan : enfant ravi, parent essoufflé. 🏃💨",
+      "autonomie": "non"
     },
     {
       "id": "act_084",
@@ -3545,7 +3642,8 @@
         "Quand un oiseau arrive, observez-le sans bouger. Essayez de reconnaître les différentes espèces."
       ],
       "astuce": "Apprend la patience et le respect du vivant, dans le calme. L'attente fait partie de l'expérience, ne la précipite pas.",
-      "partage": "Mangeoire installée, premier moineau repéré. Grande émotion à la fenêtre. 🐦🌰"
+      "partage": "Mangeoire installée, premier moineau repéré. Grande émotion à la fenêtre. 🐦🌰",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_085",
@@ -3589,7 +3687,8 @@
         "Reculez la ligne au fur et à mesure pour augmenter le défi."
       ],
       "astuce": "Travaille l'adresse en se défoulant un peu. Choisis une cible et un dégagement sans personne autour.",
-      "partage": "Concours de lancer de pommes de pin. Trois paniers d'affilée. 🎯🌰"
+      "partage": "Concours de lancer de pommes de pin. Trois paniers d'affilée. 🎯🌰",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_086",
@@ -3633,7 +3732,8 @@
         "Suivez le fil de l'eau dans le caniveau, lancez-y une feuille et courez à côté."
       ],
       "astuce": "L'activité reine du « mode pluie » : elle transforme la météo pourrie en aventure. Prévois des habits secs au retour.",
-      "partage": "Expédition flaques sous la pluie. Bottes pleines, sourire jusqu'aux oreilles. 🌧️👢"
+      "partage": "Expédition flaques sous la pluie. Bottes pleines, sourire jusqu'aux oreilles. 🌧️👢",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_087",
@@ -3672,7 +3772,8 @@
         "Inventez des défis : sauter sur un pied, faire un tour, sauter à deux dans la corde."
       ],
       "astuce": "Excellente dépense d'énergie qui travaille la coordination. Choisis un sol plat et dégagé.",
-      "partage": "Corde à sauter au parc. Record perso : 32 sauts d'affilée. 🪢🤸"
+      "partage": "Corde à sauter au parc. Record perso : 32 sauts d'affilée. 🪢🤸",
+      "autonomie": "totale"
     },
     {
       "id": "act_088",
@@ -3706,7 +3807,8 @@
         "Notez mentalement votre score et tentez de le battre au prochain voyage."
       ],
       "astuce": "Occupe longtemps sur autoroute et glisse un peu de géo sans en avoir l'air. Aucune main requise, parfait au volant.",
-      "partage": "Chasse aux départements sur la route. 23 différents repérés. Le 2A nous a manqué. 🚗🔢"
+      "partage": "Chasse aux départements sur la route. 23 différents repérés. Le 2A nous a manqué. 🚗🔢",
+      "autonomie": "non"
     },
     {
       "id": "act_089",
@@ -3742,7 +3844,8 @@
         "Celui qui se trompe dans l'ordre a perdu. Plus les objets sont farfelus, plus c'est dur (et drôle)."
       ],
       "astuce": "Travaille la mémoire en s'amusant. Aucun matériel, parfait pour la voiture comme pour patienter n'importe où.",
-      "partage": "Jeu de la valise en voiture. Liste de 14 objets retenue. Cerveaux en surchauffe. 🧳🧠"
+      "partage": "Jeu de la valise en voiture. Liste de 14 objets retenue. Cerveaux en surchauffe. 🧳🧠",
+      "autonomie": "non"
     },
     {
       "id": "act_090",
@@ -3778,7 +3881,8 @@
         "Variante : taper seulement le rythme sur ses genoux, sans même fredonner."
       ],
       "astuce": "Chanter ensemble désamorce une mauvaise humeur en quelques minutes. Idéal en voiture, aucune main mobilisée.",
-      "partage": "Blind test maison en voiture. Personne ne reconnaissait mon fredonnement. 🎵🚙"
+      "partage": "Blind test maison en voiture. Personne ne reconnaissait mon fredonnement. 🎵🚙",
+      "autonomie": "non"
     },
     {
       "id": "act_091",
@@ -3813,7 +3917,8 @@
         "Version plus simple pour les jeunes : juste la dernière lettre au lieu de la syllabe."
       ],
       "astuce": "Enrichit le vocabulaire en jouant. Adapte la difficulté (lettre ou syllabe) à l'âge. Parfait pour la route.",
-      "partage": "Chaîne de mots interminable en voiture. Bloqués sur « -gnon ». 🔤🚗"
+      "partage": "Chaîne de mots interminable en voiture. Bloqués sur « -gnon ». 🔤🚗",
+      "autonomie": "non"
     },
     {
       "id": "act_092",
@@ -3849,7 +3954,8 @@
         "Gardez les meilleures pour les ressortir au prochain trajet."
       ],
       "astuce": "Le rire est le meilleur antidote à la bouderie. Aucune préparation, marche en voiture, à table, partout.",
-      "partage": "Concours de blagues en famille. Gagnante : « pourquoi la poule traverse la route ». 😂🐔"
+      "partage": "Concours de blagues en famille. Gagnante : « pourquoi la poule traverse la route ». 😂🐔",
+      "autonomie": "non"
     },
     {
       "id": "act_093",
@@ -3888,7 +3994,8 @@
         "Final en apothéose sur la dernière chanson, puis on s'écroule de rire."
       ],
       "astuce": "La façon la plus simple de décharger l'énergie en 3 chansons. Si tu es crevé·e, danse assis·e, l'enfant fera le reste.",
-      "partage": "Soirée disco dans le salon. Chorégraphie improvisée et assumée. 💃🎶"
+      "partage": "Soirée disco dans le salon. Chorégraphie improvisée et assumée. 💃🎶",
+      "autonomie": "totale"
     },
     {
       "id": "act_094",
@@ -3936,7 +4043,8 @@
         "Inversez : c'est toi le marchand débordé, lui le client pressé."
       ],
       "astuce": "Jeu de rôle riche qui glisse un peu de calcul et d'autonomie. Une fois lancé, il tourne presque seul.",
-      "partage": "Épicerie ouverte à la maison. Le marchand de 5 ans rend très bien la monnaie. 🛒🍎"
+      "partage": "Épicerie ouverte à la maison. Le marchand de 5 ans rend très bien la monnaie. 🛒🍎",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_095",
@@ -3980,7 +4088,8 @@
         "Tenez un carnet des patients pour prolonger le jeu sur plusieurs visites."
       ],
       "astuce": "Jeu calme et bienveillant, parfait pour un enfant posé. Aide aussi à dédramatiser une vraie visite médicale.",
-      "partage": "Cabinet vétérinaire ouvert ce soir. Tous les doudous vont mieux. 🩺🧸"
+      "partage": "Cabinet vétérinaire ouvert ce soir. Tous les doudous vont mieux. 🩺🧸",
+      "autonomie": "totale"
     },
     {
       "id": "act_096",
@@ -4028,7 +4137,8 @@
         "Faites-y vivre des figurines : embouteillages, livraisons, urgences."
       ],
       "astuce": "Grand projet de construction et de jeu. La ville peut rester montée plusieurs jours pour des parties à rallonge.",
-      "partage": "Une ville entière construite avec nos boîtes de récup. Urbanisme niveau expert. 🏙️📦"
+      "partage": "Une ville entière construite avec nos boîtes de récup. Urbanisme niveau expert. 🏙️📦",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_097",
@@ -4072,7 +4182,8 @@
         "On vérifie en ouvrant à la fin. On peut corser avec des sons plus proches."
       ],
       "astuce": "Affine l'écoute, calme et concentré. Un peu de préparation, mais réutilisable plein de fois.",
-      "partage": "Memory des sons à la maison. Oreille de musicien confirmée. 🔊👂"
+      "partage": "Memory des sons à la maison. Oreille de musicien confirmée. 🔊👂",
+      "autonomie": "non"
     },
     {
       "id": "act_098",
@@ -4119,7 +4230,8 @@
         "Le rituel : on secoue quand on est agité, et on respire calmement en regardant tout se reposer."
       ],
       "astuce": "Vous fabriquez un vrai outil anti-crise réutilisable. À ressortir lors des gros moments d'émotion pour aider à se calmer.",
-      "partage": "On a fabriqué notre bouteille magique du calme. Effet hypnotique garanti. ✨🍶"
+      "partage": "On a fabriqué notre bouteille magique du calme. Effet hypnotique garanti. ✨🍶",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_099",
@@ -4159,7 +4271,8 @@
         "Enchaînez sur un bateau ou une grenouille sauteuse si l'envie y est."
       ],
       "astuce": "Travaille la précision et la patience, dans le calme. La cocotte devient ensuite un jeu à part entière.",
-      "partage": "Atelier pliage : une cocotte qui prédit l'avenir. Verdict : que du bonheur. 📄🔮"
+      "partage": "Atelier pliage : une cocotte qui prédit l'avenir. Verdict : que du bonheur. 📄🔮",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_100",
@@ -4203,7 +4316,8 @@
         "Inventez une petite histoire et jouez le spectacle. Le public (peluches, autre parent) applaudit."
       ],
       "astuce": "Fabrication + jeu de rôle : l'activité occupe sur la durée. Garde les marionnettes pour rejouer d'autres jours.",
-      "partage": "Spectacle de marionnettes-chaussettes ce soir. Standing ovation des peluches. 🧦🎭"
+      "partage": "Spectacle de marionnettes-chaussettes ce soir. Standing ovation des peluches. 🧦🎭",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_101",
@@ -4242,7 +4356,8 @@
         "Donne aussi ta météo à toi : ça montre que les adultes aussi ont des orages."
       ],
       "astuce": "Bel outil pour mettre des mots sur les émotions, en douceur. Parfait en fin de journée ou après une grosse colère.",
-      "partage": "Météo des émotions du soir : grand soleil avec quelques nuages. ☀️🌈"
+      "partage": "Météo des émotions du soir : grand soleil avec quelques nuages. ☀️🌈",
+      "autonomie": "non"
     },
     {
       "id": "act_102",
@@ -4277,7 +4392,8 @@
         "Variante : inventer des questions sur les grands-parents, à vérifier plus tard avec eux."
       ],
       "astuce": "Conversation complice qui crée du lien et révèle de belles surprises. Aucun matériel, marche partout.",
-      "partage": "Quiz familial improvisé. J'ai appris des trucs sur mon propre enfant ! ❓❤️"
+      "partage": "Quiz familial improvisé. J'ai appris des trucs sur mon propre enfant ! ❓❤️",
+      "autonomie": "non"
     },
     {
       "id": "act_103",
@@ -4325,7 +4441,8 @@
         "On déguste à la paille, et on note le cocktail sur 10."
       ],
       "astuce": "Astucieux pour faire boire des fruits sans négocier. Garde le mixeur sous ton contrôle pour la sécurité.",
-      "partage": "Bar à smoothies maison. Cocktail du jour : le Tornade Rose. 🍓🥤"
+      "partage": "Bar à smoothies maison. Cocktail du jour : le Tornade Rose. 🍓🥤",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_104",
@@ -4365,7 +4482,8 @@
         "Une fois les dix retrouvés, c'est lui qui cache et toi qui cherches."
       ],
       "astuce": "Annoncer le nombre exact évite la frustration et donne un objectif clair. Préparation minimale.",
-      "partage": "Chasse aux trésors dans le salon. Les 10 jetons retrouvés en un temps record. 🔎💰"
+      "partage": "Chasse aux trésors dans le salon. Les 10 jetons retrouvés en un temps record. 🔎💰",
+      "autonomie": "non"
     },
     {
       "id": "act_105",
@@ -4408,7 +4526,8 @@
         "Modifiez le parcours, ajoutez des étapes pour relancer l'intérêt."
       ],
       "astuce": "Excellente dépense d'énergie en intérieur, qui travaille l'équilibre et la coordination. Sécurise les appuis instables.",
-      "partage": "Parcours du combattant dans le salon. Record amélioré à chaque tour. 🏃🛋️"
+      "partage": "Parcours du combattant dans le salon. Record amélioré à chaque tour. 🏃🛋️",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_106",
@@ -4451,7 +4570,8 @@
         "Le premier qui s'écroule a perdu. Fous rires garantis."
       ],
       "astuce": "Fabriquer le tapis fait partie du jeu, et il resservira. Marche aussi avec une seule personne qui essaie de tenir.",
-      "partage": "Twister fait maison. Position finale : bretzel humain. 🔴🟡"
+      "partage": "Twister fait maison. Position finale : bretzel humain. 🔴🟡",
+      "autonomie": "non"
     },
     {
       "id": "act_107",
@@ -4499,7 +4619,8 @@
         "Défi : « fabrique-moi du orange », « du marron »."
       ],
       "astuce": "Petite expérience de chimie des couleurs, fascinante et apaisante. Sur un plateau ou dans l'évier pour limiter les dégâts.",
-      "partage": "Labo des couleurs ouvert à la maison. A fabriqué du violet tout seul. 🎨🔬"
+      "partage": "Labo des couleurs ouvert à la maison. A fabriqué du violet tout seul. 🎨🔬",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_108",
@@ -4543,7 +4664,8 @@
         "À ton tour de piocher et d'inventer. On peut aussi construire une seule histoire à deux, en piochant chacun son tour."
       ],
       "astuce": "Stimule l'imagination avec ce qu'on a sous la main. Renouvelable à l'infini en changeant les objets de la boîte.",
-      "partage": "Boîte à histoires ce soir. Une cuillère, un dinosaure et un bouchon ont vécu une grande aventure. 📦📖"
+      "partage": "Boîte à histoires ce soir. Une cuillère, un dinosaure et un bouchon ont vécu une grande aventure. 📦📖",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_109",
@@ -4583,7 +4705,8 @@
         "On compare les deux dessins à la fin : l'écart est souvent hilarant."
       ],
       "astuce": "Travaille l'écoute et la précision du langage, dans le calme. Plus le dessin est précis, plus le résultat est drôle.",
-      "partage": "Jeu du dessin décrit. Sa licorne est devenue un cheval avec une carotte sur le front. 🦄✏️"
+      "partage": "Jeu du dessin décrit. Sa licorne est devenue un cheval avec une carotte sur le front. 🦄✏️",
+      "autonomie": "non"
     },
     {
       "id": "act_110",
@@ -4627,7 +4750,8 @@
         "Posez une règle de fin : « le premier à toucher la forteresse adverse 5 fois gagne », puis grand câlin de réconciliation."
       ],
       "astuce": "Le défouloir parfait pour évacuer une grosse contrariété. Uniquement des projectiles mous, et on range au fur et à mesure.",
-      "partage": "Bataille de forteresses dans le salon. Munitions : chaussettes. Aucun blessé. 🏰🧦"
+      "partage": "Bataille de forteresses dans le salon. Munitions : chaussettes. Aucun blessé. 🏰🧦",
+      "autonomie": "non"
     },
     {
       "id": "act_111",
@@ -4662,7 +4786,8 @@
         "Inversez : c'est lui le robot, toi le programmeur."
       ],
       "astuce": "Travaille le repérage dans l'espace et la précision des consignes, en rigolant. Aucun matériel.",
-      "partage": "J'ai été robotisé·e par mon enfant ce soir. Bugs nombreux et assumés. 🤖🍌"
+      "partage": "J'ai été robotisé·e par mon enfant ce soir. Bugs nombreux et assumés. 🤖🍌",
+      "autonomie": "non"
     },
     {
       "id": "act_112",
@@ -4701,7 +4826,8 @@
         "Terminez allongés « comme un lion qui fait la sieste », tout doux."
       ],
       "astuce": "Mêle mouvement et retour au calme : idéal pour canaliser en douceur avant le coucher. Toi aussi tu t'étires, profites-en.",
-      "partage": "Séance de yoga des animaux ce soir. Posture préférée : le chien tête en bas. 🧘🐱"
+      "partage": "Séance de yoga des animaux ce soir. Posture préférée : le chien tête en bas. 🧘🐱",
+      "autonomie": "non"
     },
     {
       "id": "act_113",
@@ -4745,7 +4871,8 @@
         "Affichez le résultat sur la porte de sa chambre."
       ],
       "astuce": "Allie créativité et fierté de reconnaître/écrire son prénom. Calme et sans bazar, parfait à table.",
-      "partage": "Prénom transformé en chef-d'œuvre coloré. Affiché fièrement sur la porte. 🔤🌟"
+      "partage": "Prénom transformé en chef-d'œuvre coloré. Affiché fièrement sur la porte. 🔤🌟",
+      "autonomie": "totale"
     },
     {
       "id": "act_114",
@@ -4793,7 +4920,8 @@
         "Tenez un petit carnet de croissance avec des dessins de l'évolution."
       ],
       "astuce": "Projet de patience qui se prolonge sur des jours et responsabilise. Les lentilles germent vite : effet visible en 2-3 jours.",
-      "partage": "On a planté nos premières graines. Surveillance quotidienne très sérieuse. 🌱🪴"
+      "partage": "On a planté nos premières graines. Surveillance quotidienne très sérieuse. 🌱🪴",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_115",
@@ -4827,7 +4955,8 @@
         "Version coopérative ou chacun de son côté en course."
       ],
       "astuce": "Mêle mouvement et apprentissage des lettres. Adapte : pour les plus jeunes, juste chercher des objets par leur son initial.",
-      "partage": "Alphabet de la maison complété. Le X nous a donné du fil à retordre. 🔠🏠"
+      "partage": "Alphabet de la maison complété. Le X nous a donné du fil à retordre. 🔠🏠",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_116",
@@ -4875,7 +5004,8 @@
         "Défilez en fanfare dans le couloir. Le but n'est pas d'être juste, mais joyeux."
       ],
       "astuce": "Fabrication créative suivie d'un moment musical défoulant. Ça fait du bruit : pas l'idéal juste avant la sieste du petit dernier.",
-      "partage": "Fanfare maison en tournée dans le couloir. Le groupe a du potentiel (sonore). 🥁🎺"
+      "partage": "Fanfare maison en tournée dans le couloir. Le groupe a du potentiel (sonore). 🥁🎺",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_117",
@@ -4915,7 +5045,8 @@
         "Niveau expert : construire une grande pyramide à 4 étages, ou faire une course à deux."
       ],
       "astuce": "Travaille la dextérité et la concentration, avec ce facteur « record à battre » qui rend accro. Aucun bazar.",
-      "partage": "Pyramide de gobelets montée en 8 secondes chrono. Record perso. 🥤⏱️"
+      "partage": "Pyramide de gobelets montée en 8 secondes chrono. Record perso. 🥤⏱️",
+      "autonomie": "totale"
     },
     {
       "id": "act_118",
@@ -4955,7 +5086,8 @@
         "Niveau supérieur : le « morpion géant » sur une grande grille où il faut aligner 4 ou 5 symboles."
       ],
       "astuce": "Calme, rapide, et il y a toujours une revanche à jouer. Parfait pour patienter ou pour un moment posé.",
-      "partage": "Tournoi de morpion à la maison. Score serré, ambiance électrique. ❌⭕"
+      "partage": "Tournoi de morpion à la maison. Score serré, ambiance électrique. ❌⭕",
+      "autonomie": "non"
     },
     {
       "id": "act_119",
@@ -4990,7 +5122,8 @@
         "Trouvé = on inverse. Pour corser : un seul indice autorisé."
       ],
       "astuce": "Le jeu d'observation par excellence : zéro matériel, marche dans n'importe quelle pièce ou salle d'attente.",
-      "partage": "Partie de « je vois, je vois » qui a duré tout le repas. 👁️🔴"
+      "partage": "Partie de « je vois, je vois » qui a duré tout le repas. 👁️🔴",
+      "autonomie": "non"
     },
     {
       "id": "act_120",
@@ -5034,7 +5167,8 @@
         "Bonus : aller les cacher dehors pour qu'un inconnu les trouve, façon chasse au bonheur."
       ],
       "astuce": "Beau pont entre une balade (ramasser) et un atelier calme (peindre). Les galets cachés dehors font de jolies surprises pour les passants.",
-      "partage": "Atelier galets peints. Une coccinelle déposée sur un banc pour faire sourire quelqu'un. 🪨🐞"
+      "partage": "Atelier galets peints. Une coccinelle déposée sur un banc pour faire sourire quelqu'un. 🪨🐞",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_121",
@@ -5069,7 +5203,8 @@
         "Terminez par une « course de dinosaures » jusqu'à un point repère."
       ],
       "astuce": "Crier un bon coup dehors évacue à merveille colère et frustration. Imparable pour transformer un ronchon en T-Rex hilare.",
-      "partage": "Concours de rugissements au parc. Un T-Rex de 4 ans a gagné haut la main. 🦖📣"
+      "partage": "Concours de rugissements au parc. Un T-Rex de 4 ans a gagné haut la main. 🦖📣",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_122",
@@ -5104,7 +5239,8 @@
         "Sautez dans le tas, roulez-vous dedans, recommencez. Concours de plus gros tas."
       ],
       "astuce": "L'activité d'automne par excellence : gratuite, joyeuse, défoulante. Le grand geste de lancer décroche même un ronchon.",
-      "partage": "Tempête de feuilles mortes cet après-midi. Tout le monde s'est roulé dedans. 🍂🌪️"
+      "partage": "Tempête de feuilles mortes cet après-midi. Tout le monde s'est roulé dedans. 🍂🌪️",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_123",
@@ -5139,7 +5275,8 @@
         "Photographiez le mandala fini : il disparaîtra au prochain vent."
       ],
       "astuce": "Création apaisante et concentrée, sans rien à acheter ni à ramener. Le côté éphémère fait partie de la beauté.",
-      "partage": "Mandala de pétales composé au jardin. Aussi beau qu'éphémère. 🌸🌀"
+      "partage": "Mandala de pétales composé au jardin. Aussi beau qu'éphémère. 🌸🌀",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_124",
@@ -5173,7 +5310,8 @@
         "Inversez avec un autre adulte si possible, ou faites une « course » aller-retour."
       ],
       "astuce": "Renforce les bras en s'amusant et dépense bien l'énergie. Sur une surface souple (herbe) et sans forcer sur les poignets.",
-      "partage": "Course de brouette dans le jardin. Bras de pro. 🤸🌳"
+      "partage": "Course de brouette dans le jardin. Bras de pro. 🤸🌳",
+      "autonomie": "non"
     },
     {
       "id": "act_125",
@@ -5207,7 +5345,8 @@
         "Traversez ainsi tout le parc, comme une chenille sautillante."
       ],
       "astuce": "Grand classique qui défoule et fait rire. À faire sur l'herbe, en adaptant la hauteur du mouton à la taille du sauteur.",
-      "partage": "Saute-mouton à travers tout le parc. On a fini essoufflés et ravis. 🐑🤾"
+      "partage": "Saute-mouton à travers tout le parc. On a fini essoufflés et ravis. 🐑🤾",
+      "autonomie": "non"
     },
     {
       "id": "act_126",
@@ -5242,7 +5381,8 @@
         "Ajoutez des consignes : « ce tronçon en marche arrière », « saute à pieds joints jusqu'au banc »."
       ],
       "astuce": "Exploite le mobilier naturel pour un vrai défi physique. Vérifie les appuis (branches solides, sol stable) avant de lancer.",
-      "partage": "Parcours du combattant inventé en forêt. Record battu trois fois. 🌲🏃"
+      "partage": "Parcours du combattant inventé en forêt. Record battu trois fois. 🌲🏃",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_127",
@@ -5277,7 +5417,8 @@
         "Inversez : c'est lui qui trace la piste pour toi."
       ],
       "astuce": "Mêle marche, observation et un soupçon de mystère. Idéal pour rendre passionnante une balade qui s'annonçait morne.",
-      "partage": "Jeu de piste improvisé en forêt. Flèches de bâtons et trésor au bout. 🧭🌿"
+      "partage": "Jeu de piste improvisé en forêt. Flèches de bâtons et trésor au bout. 🧭🌿",
+      "autonomie": "non"
     },
     {
       "id": "act_128",
@@ -5311,7 +5452,8 @@
         "Variante les yeux bandés : on guide l'enfant vers un arbre qu'il explore au toucher, puis il essaie de le reconnaître parmi les autres."
       ],
       "astuce": "Petit bain de nature très apaisant, qui reconnecte au présent. Parfait pour ralentir ensemble quand vous êtes tous les deux à plat.",
-      "partage": "Câlin aux arbres au parc. On a reconnu « notre » chêne les yeux fermés. 🌳🤗"
+      "partage": "Câlin aux arbres au parc. On a reconnu « notre » chêne les yeux fermés. 🌳🤗",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_129",
@@ -5346,7 +5488,8 @@
         "Cherchez ensemble le « caillou parfait » et travaillez la technique."
       ],
       "astuce": "Travaille le geste et la persévérance, au bord de l'eau. Surveille de près la proximité de l'eau avec les plus jeunes.",
-      "partage": "Concours de ricochets à l'étang. Record du jour : 5 rebonds. 🪨💧"
+      "partage": "Concours de ricochets à l'étang. Record du jour : 5 rebonds. 🪨💧",
+      "autonomie": "non"
     },
     {
       "id": "act_130",
@@ -5394,7 +5537,8 @@
         "Donne-lui la responsabilité d'un petit coin à surveiller dans les jours qui suivent."
       ],
       "astuce": "Activité calme, sensorielle et responsabilisante. Prévois des habits qui craignent la terre, c'est le principe.",
-      "partage": "Petit jardinier officiel à l'œuvre. A arrosé tout le balcon (et lui-même). 🌻🪣"
+      "partage": "Petit jardinier officiel à l'œuvre. A arrosé tout le balcon (et lui-même). 🌻🪣",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_131",
@@ -5429,7 +5573,8 @@
         "Laisse-le choisir le prochain animal à imiter."
       ],
       "astuce": "Transforme une marche pénible et boudeuse en jeu : difficile de rester ronchon en sautant comme un kangourou.",
-      "partage": "Trajet jusqu'au parc fait en canard, kangourou et crabe. Personne n'a boudé. 🦆🦘"
+      "partage": "Trajet jusqu'au parc fait en canard, kangourou et crabe. Personne n'a boudé. 🦆🦘",
+      "autonomie": "non"
     },
     {
       "id": "act_132",
@@ -5469,7 +5614,8 @@
         "Au retour, présentez le « reportage » : on raconte chaque cliché."
       ],
       "astuce": "Aiguise le regard et donne un but à la balade. Un appareil en carton fonctionne aussi bien qu'un vrai pour les plus jeunes.",
-      "partage": "Mini-reporter en mission photo au parc. A capturé une feuille en forme de cœur. 📷🍃"
+      "partage": "Mini-reporter en mission photo au parc. A capturé une feuille en forme de cœur. 📷🍃",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_133",
@@ -5504,7 +5650,8 @@
         "Suivez la colonne pour tenter de trouver l'entrée de la fourmilière (sans la déranger)."
       ],
       "astuce": "Fascination garantie et apprentissage de l'observation patiente. On regarde sans toucher ni écraser : respect des petites bêtes.",
-      "partage": "Vingt minutes à espionner une colonne de fourmis. Captivant pour tout le monde. 🐜🔍"
+      "partage": "Vingt minutes à espionner une colonne de fourmis. Captivant pour tout le monde. 🐜🔍",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_134",
@@ -5547,7 +5694,8 @@
         "Admirez le coin propre à la fin et discutez de pourquoi c'est important."
       ],
       "astuce": "Activité utile qui donne du sens et un vrai sentiment de fierté. Garde le tri des déchets dangereux pour toi.",
-      "partage": "Mission nettoyage au parc en famille. 23 déchets ramassés, coin tout propre. ♻️🧤"
+      "partage": "Mission nettoyage au parc en famille. 23 déchets ramassés, coin tout propre. ♻️🧤",
+      "autonomie": "avec_lancement"
     },
     {
       "id": "act_135",
@@ -5582,7 +5730,8 @@
         "Comparez d'une balade à l'autre : qu'est-ce qui a changé depuis la dernière fois ?"
       ],
       "astuce": "Reconnecte au rythme des saisons et donne un fil conducteur à la promenade. Renouvelable à chaque période de l'année.",
-      "partage": "Chasse aux signes du printemps. Premiers bourgeons repérés ! 🌷🔎"
+      "partage": "Chasse aux signes du printemps. Premiers bourgeons repérés ! 🌷🔎",
+      "autonomie": "non"
     },
     {
       "id": "act_136",
@@ -5617,7 +5766,8 @@
         "Variez les « postures d'animaux en équilibre » pour relancer."
       ],
       "astuce": "Petit défi d'équilibre qui se glisse partout, même en pleine balade. Travaille la concentration en douceur.",
-      "partage": "Défi flamant rose dans le parc. Tenu 40 secondes sur une jambe. 🦩⏳"
+      "partage": "Défi flamant rose dans le parc. Tenu 40 secondes sur une jambe. 🦩⏳",
+      "autonomie": "totale"
     },
     {
       "id": "act_137",
@@ -5652,7 +5802,8 @@
         "Au suivant : nouvelle personne, nouvelle histoire encore plus folle."
       ],
       "astuce": "Stimule l'imagination et fait passer la route sans s'en rendre compte. Reste bienveillant dans les histoires inventées.",
-      "partage": "On a inventé la vie de tous les gens croisés sur la route. Joséphine la dompteuse était la meilleure. 🚗🦁"
+      "partage": "On a inventé la vie de tous les gens croisés sur la route. Joséphine la dompteuse était la meilleure. 🚗🦁",
+      "autonomie": "non"
     },
     {
       "id": "act_138",
@@ -5687,7 +5838,8 @@
         "Laisse l'enfant inventer les pouvoirs de la voiture et décrire le voyage."
       ],
       "astuce": "Pur carburant à imagination, parfait pour les trajets. Suis ses idées plutôt que les tiennes, c'est là que ça décolle.",
-      "partage": "Notre voiture s'est posée sur la Lune aujourd'hui (en imagination). 🚗🌙"
+      "partage": "Notre voiture s'est posée sur la Lune aujourd'hui (en imagination). 🚗🌙",
+      "autonomie": "non"
     },
     {
       "id": "act_139",
@@ -5722,7 +5874,8 @@
         "Votez pour la pub la plus convaincante (et la plus folle)."
       ],
       "astuce": "Travaille la créativité et l'aisance à l'oral, en rigolant. Aucune main mobilisée, idéal au volant.",
-      "partage": "Pub du jour en voiture : des chaussettes qui font le café. Je suis vendu·e. 📺🧦"
+      "partage": "Pub du jour en voiture : des chaussettes qui font le café. Je suis vendu·e. 📺🧦",
+      "autonomie": "non"
     },
     {
       "id": "act_140",
@@ -5756,7 +5909,8 @@
         "Au prochain trajet, on enrichit le pays : nouvelles lois, nouveaux habitants."
       ],
       "astuce": "Grand jeu d'invention collaboratif qui peut se poursuivre de trajet en trajet. Garde une trace écrite, ça devient un projet à rallonge.",
-      "partage": "On a fondé un pays en voiture. Loi n°1 : sieste obligatoire après chaque gâteau. 🏴🍬"
+      "partage": "On a fondé un pays en voiture. Loi n°1 : sieste obligatoire après chaque gâteau. 🏴🍬",
+      "autonomie": "non"
     },
     {
       "id": "act_141",
@@ -5791,7 +5945,8 @@
         "À l'autre de proposer le prochain mélange improbable."
       ],
       "astuce": "Imagination et fous rires garantis, sans aucun matériel. Pour les plus grands : dessiner l'animal une fois arrivés.",
-      "partage": "Découverte du jour en voiture : le crocolapin, qui saute et claque des dents. 🐊🐰"
+      "partage": "Découverte du jour en voiture : le crocolapin, qui saute et claque des dents. 🐊🐰",
+      "autonomie": "non"
     },
     {
       "id": "act_142",
@@ -5825,7 +5980,8 @@
         "Terminez par « et demain, qu'est-ce qu'on a hâte de faire ? »."
       ],
       "astuce": "Rituel apaisant et précieux, parfait sur le trajet du retour. Aide à focaliser sur le positif et à se confier en douceur.",
-      "partage": "Notre rituel des trois trucs chouettes sur la route du retour. Toujours un beau moment. 🚗💛"
+      "partage": "Notre rituel des trois trucs chouettes sur la route du retour. Toujours un beau moment. 🚗💛",
+      "autonomie": "non"
     },
     {
       "id": "act_143",
@@ -5861,7 +6017,8 @@
         "Notez votre meilleur temps et essayez de le dépasser la fois suivante."
       ],
       "astuce": "Astuce de parent : un grand classique pour retrouver un peu de calme... et la paix sonore quelques minutes. À doser, sans piéger un enfant déjà contrarié.",
-      "partage": "Record de silence en voiture : 3 minutes. Battu par un fou rire. 🤫⏱️"
+      "partage": "Record de silence en voiture : 3 minutes. Battu par un fou rire. 🤫⏱️",
+      "autonomie": "non"
     },
     {
       "id": "act_144",
@@ -5896,7 +6053,8 @@
         "Toi aussi tu racontes ta journée à l'envers."
       ],
       "astuce": "Manière originale et calme de faire raconter sa journée à un enfant qui répond d'habitude « rien » à « tu as fait quoi ? ».",
-      "partage": "Journée racontée à l'envers en voiture. Exercice de mémoire surprenant. 🔄🚗"
+      "partage": "Journée racontée à l'envers en voiture. Exercice de mémoire surprenant. 🔄🚗",
+      "autonomie": "non"
     },
     {
       "id": "act_145",
@@ -5930,7 +6088,8 @@
         "Respirez lentement ensemble en observant : on cherche le calme, on le trouve un peu en soi aussi."
       ],
       "astuce": "Jeu d'apaisement parfait pour faire redescendre la pression en fin de trajet ou après une journée trop pleine.",
-      "partage": "Chasse au calme par la fenêtre. On a trouvé un nuage en forme de coussin. ☁️😌"
+      "partage": "Chasse au calme par la fenêtre. On a trouvé un nuage en forme de coussin. ☁️😌",
+      "autonomie": "non"
     },
     {
       "id": "act_146",
@@ -5965,7 +6124,8 @@
         "Variez : « la bougie » (souffler doucement sans l'éteindre), « le ballon qui se dégonfle »."
       ],
       "astuce": "Vraie technique de retour au calme déguisée en jeu, utile pour apaiser une montée d'énervement. Marche aussi pour t'aider, toi.",
-      "partage": "Respiration des bulles en voiture. Petit moment de calme retrouvé. 🫧😮‍💨"
+      "partage": "Respiration des bulles en voiture. Petit moment de calme retrouvé. 🫧😮‍💨",
+      "autonomie": "non"
     },
     {
       "id": "act_147",
@@ -6001,7 +6161,8 @@
         "À tour de rôle, chacun improvise un couplet rigolo."
       ],
       "astuce": "Créatif et défoulant à la fois, parfait pour faire passer la route. Les paroles les plus absurdes sont les meilleures.",
-      "partage": "Chanson personnalisée inventée en voiture. Sujet : nos chaussettes qui disparaissent. 🎶🧦"
+      "partage": "Chanson personnalisée inventée en voiture. Sujet : nos chaussettes qui disparaissent. 🎶🧦",
+      "autonomie": "non"
     },
     {
       "id": "act_148",
@@ -6036,7 +6197,8 @@
         "On compare les réponses, puis on relance avec une nouvelle lettre."
       ],
       "astuce": "Enrichit le vocabulaire et les connaissances, sans aucun matériel. Adapte les catégories à l'âge.",
-      "partage": "Petit bac oral en voiture. La lettre Z a fait souffrir tout le monde. 🔤🚗"
+      "partage": "Petit bac oral en voiture. La lettre Z a fait souffrir tout le monde. 🔤🚗",
+      "autonomie": "non"
     },
     {
       "id": "act_149",
@@ -6071,7 +6233,8 @@
         "L'enfant finit par reconnaître les panneaux courants, l'air de rien."
       ],
       "astuce": "Mêle apprentissage utile et invention rigolote. Le décor défile et alimente le jeu tout seul.",
-      "partage": "Décodage des panneaux en voiture. Celui-là, paraît-il, interdit les licornes. 🚸🦄"
+      "partage": "Décodage des panneaux en voiture. Celui-là, paraît-il, interdit les licornes. 🚸🦄",
+      "autonomie": "non"
     },
     {
       "id": "act_150",
@@ -6106,7 +6269,546 @@
         "Tenez le score et désignez le grand champion du quiz."
       ],
       "astuce": "Mélange réflexion et imagination, et chacun adore prendre le rôle du présentateur. Aucun matériel, parfait pour la route.",
-      "partage": "Grand quiz inventé en voiture. Réponse validée : il faut 4 millions de spaghettis pour faire le tour de la Terre. 🎤🍝"
+      "partage": "Grand quiz inventé en voiture. Réponse validée : il faut 4 millions de spaghettis pour faire le tour de la Terre. 🎤🍝",
+      "autonomie": "non"
+    },
+    {
+      "id": "act_151",
+      "titre": "La boîte à occupations",
+      "accroche": "Une boîte remplie de petits trésors à trier, empiler, transvaser — de quoi s'occuper tout seul un bon moment.",
+      "age": {
+        "min": 2,
+        "max": 6
+      },
+      "duree": {
+        "min": 20,
+        "ideal": 30,
+        "extensible": true
+      },
+      "lieux": [
+        "maison"
+      ],
+      "humeurs": [
+        "ennui",
+        "pose"
+      ],
+      "energie": "calme",
+      "effortParent": "faible",
+      "bazar": 1,
+      "type": "jeu",
+      "materiel": [
+        {
+          "nom": "une boîte ou un bac",
+          "courant": true
+        },
+        {
+          "nom": "des petits objets sûrs (bouchons, pinces à linge, pompons…)",
+          "courant": true
+        },
+        {
+          "nom": "des gobelets ou un moule à muffins pour trier",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Prépare une boîte avec plein de petits objets variés et quelques gobelets vides.",
+        "Pose-la devant l'enfant : à lui de trier, empiler, transvaser, ranger par couleur… comme il veut.",
+        "Aucune règle imposée : c'est l'exploration libre qui occupe.",
+        "Range le tout dans la boîte à la fin — prête à ressortir un autre jour."
+      ],
+      "astuce": "L'invitation à jouer par excellence : tu la poses, et tu peux vaquer à côté pendant qu'il s'absorbe dedans.",
+      "partage": "Grande séance de tri très sérieuse ce matin. 🧺🎨",
+      "autonomie": "totale"
+    },
+    {
+      "id": "act_152",
+      "titre": "Défi construction, 20 minutes chrono",
+      "accroche": "Mission : bâtir la construction la plus dingue possible avec ce que tu as. Top chrono, c'est parti !",
+      "age": {
+        "min": 4,
+        "max": 10
+      },
+      "duree": {
+        "min": 20,
+        "ideal": 30,
+        "extensible": true
+      },
+      "lieux": [
+        "maison"
+      ],
+      "humeurs": [
+        "afond",
+        "inspire",
+        "ennui"
+      ],
+      "energie": "neutre",
+      "effortParent": "faible",
+      "bazar": 1,
+      "type": "defi",
+      "materiel": [
+        {
+          "nom": "des briques de construction, cubes, ou boîtes",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Lance-lui un défi : « construis la tour la plus haute », « un château », « un véhicule de l'espace ».",
+        "Il a 20 minutes pour réaliser son chef-d'œuvre, tout seul.",
+        "Quand c'est fini, il vient te présenter sa création (et t'expliquer comment ça marche).",
+        "Relance avec un nouveau défi s'il en redemande."
+      ],
+      "astuce": "Le défi donne un but clair, ce qui aide beaucoup les enfants à se lancer seuls. Tu n'interviens qu'à la présentation finale.",
+      "partage": "Défi construction relevé : une fusée à 3 étages. 🚀🧱",
+      "autonomie": "totale"
+    },
+    {
+      "id": "act_153",
+      "titre": "Dessine ton monde",
+      "accroche": "Une feuille, des feutres, et toute la liberté d'inventer : un monde, une ville, une planète rien qu'à toi.",
+      "age": {
+        "min": 3,
+        "max": 10
+      },
+      "duree": {
+        "min": 20,
+        "ideal": 35,
+        "extensible": true
+      },
+      "lieux": [
+        "maison"
+      ],
+      "humeurs": [
+        "inspire",
+        "pose"
+      ],
+      "energie": "calme",
+      "effortParent": "faible",
+      "bazar": 0,
+      "type": "creation",
+      "materiel": [
+        {
+          "nom": "des feuilles",
+          "courant": true
+        },
+        {
+          "nom": "des feutres ou crayons",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Donne-lui une grande feuille et un thème large : « dessine ton monde à toi ».",
+        "Une ville imaginaire, une planète, un royaume, un aquarium géant : tout est permis.",
+        "Il remplit sa feuille à son rythme, sans consigne stricte.",
+        "Il te fait visiter son monde une fois terminé."
+      ],
+      "astuce": "Un thème ouvert plutôt qu'un modèle à copier : c'est ce qui débloque l'imagination et occupe longtemps, en solo.",
+      "partage": "A dessiné une ville entière peuplée de chats. 🐱🖍️",
+      "autonomie": "totale"
+    },
+    {
+      "id": "act_154",
+      "titre": "Le grand tri des couleurs",
+      "accroche": "Rassemble tout ce qui est rouge… puis bleu… puis jaune. Le rangement devient un jeu.",
+      "age": {
+        "min": 2,
+        "max": 5
+      },
+      "duree": {
+        "min": 15,
+        "ideal": 25,
+        "extensible": true
+      },
+      "lieux": [
+        "maison"
+      ],
+      "humeurs": [
+        "pose",
+        "ennui"
+      ],
+      "energie": "calme",
+      "effortParent": "faible",
+      "bazar": 1,
+      "type": "jeu",
+      "materiel": [
+        {
+          "nom": "des jouets ou objets de couleurs variées",
+          "courant": true
+        },
+        {
+          "nom": "des paniers ou des zones au sol",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Propose-lui de rassembler tous les objets d'une même couleur dans un panier.",
+        "Il part à la chasse dans la pièce et regroupe par couleur.",
+        "Puis il passe à la couleur suivante, comme un petit collectionneur.",
+        "Bonus : aligner les objets du plus petit au plus grand à la fin."
+      ],
+      "astuce": "Parfait pour les petits : ça travaille les couleurs et le classement, dans le calme et en autonomie totale.",
+      "partage": "Tri des couleurs façon pro. Le rouge a gagné. 🔴🔵",
+      "autonomie": "totale"
+    },
+    {
+      "id": "act_155",
+      "titre": "Le maître du transvasement",
+      "accroche": "Verser, remplir, vider, recommencer : la grande fascination des tout-petits.",
+      "age": {
+        "min": 1,
+        "max": 4
+      },
+      "duree": {
+        "min": 15,
+        "ideal": 25,
+        "extensible": true
+      },
+      "lieux": [
+        "maison"
+      ],
+      "humeurs": [
+        "pose",
+        "ennui"
+      ],
+      "energie": "calme",
+      "effortParent": "moyen",
+      "bazar": 1,
+      "type": "exploration",
+      "materiel": [
+        {
+          "nom": "des récipients de tailles différentes",
+          "courant": true
+        },
+        {
+          "nom": "des pâtes sèches, des pois chiches ou de l'eau",
+          "courant": true
+        },
+        {
+          "nom": "une cuillère ou un petit verre",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Installe un grand plateau ou une bassine avec des récipients et des pâtes sèches (ou de l'eau).",
+        "Montre une fois : on verse d'un récipient à l'autre, on remplit, on transvase.",
+        "Laisse-le explorer librement : le geste le captive tout seul un bon moment.",
+        "Range dans une boîte hermétique pour ressortir une prochaine fois."
+      ],
+      "astuce": "Grande occupation autonome des petits. Reste à portée de vue pour les moins de 3 ans (petits éléments), mais laisse-le mener.",
+      "partage": "Séance transvasement très concentrée. Zéro écran, plein de pâtes. 🍚🥄",
+      "autonomie": "avec_lancement"
+    },
+    {
+      "id": "act_156",
+      "titre": "Mon cahier d'histoires en images",
+      "accroche": "Un carnet rien qu'à toi pour dessiner tes aventures, case après case, comme un vrai auteur.",
+      "age": {
+        "min": 5,
+        "max": 11
+      },
+      "duree": {
+        "min": 25,
+        "ideal": 40,
+        "extensible": true
+      },
+      "lieux": [
+        "maison"
+      ],
+      "humeurs": [
+        "inspire",
+        "pose"
+      ],
+      "energie": "calme",
+      "effortParent": "faible",
+      "bazar": 0,
+      "type": "creation",
+      "materiel": [
+        {
+          "nom": "un petit carnet ou des feuilles agrafées",
+          "courant": true
+        },
+        {
+          "nom": "un crayon et des feutres",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Offre-lui un carnet qui devient « son » cahier d'histoires.",
+        "Il invente et dessine une aventure, une page ou une case à la fois.",
+        "Il peut y revenir jour après jour pour continuer la saga de son héros.",
+        "Quand il veut, il te lit son dernier épisode."
+      ],
+      "astuce": "Le format carnet donne un projet qui dure dans le temps : il le ressort tout seul, encore et encore.",
+      "partage": "Épisode 4 des aventures du chevalier-patate terminé. 🥔⚔️",
+      "autonomie": "totale"
+    },
+    {
+      "id": "act_157",
+      "titre": "La pâte à modeler libre",
+      "accroche": "Malaxer, aplatir, rouler, inventer : rien qu'avec ses mains et une boule de pâte.",
+      "age": {
+        "min": 2,
+        "max": 9
+      },
+      "duree": {
+        "min": 20,
+        "ideal": 30,
+        "extensible": true
+      },
+      "lieux": [
+        "maison"
+      ],
+      "humeurs": [
+        "inspire",
+        "ennui",
+        "pose"
+      ],
+      "energie": "calme",
+      "effortParent": "faible",
+      "bazar": 1,
+      "type": "creation",
+      "materiel": [
+        {
+          "nom": "de la pâte à modeler (ou la pâte à sel maison)",
+          "courant": true
+        },
+        {
+          "nom": "des emporte-pièces ou une fourchette (facultatif)",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Sors la pâte à modeler et quelques outils simples sur un set ou une planche.",
+        "Aucune consigne : il crée ce qu'il veut, escargots, galettes, petits personnages.",
+        "Le geste de malaxer occupe et apaise à la fois.",
+        "On remet la pâte dans sa boîte à la fin."
+      ],
+      "astuce": "Un classique de l'autonomie qui apaise. Si tu n'as pas de pâte du commerce, la pâte à sel maison (voir l'atelier dédié) fait pareil.",
+      "partage": "Atelier modelage solo. Résultat : une ménagerie complète. 🐌🎨",
+      "autonomie": "totale"
+    },
+    {
+      "id": "act_158",
+      "titre": "Le coin cabane-lecture",
+      "accroche": "Un nid de coussins, une pile de livres, une lampe douce : un refuge pour lire (ou inventer) tout seul.",
+      "age": {
+        "min": 2,
+        "max": 9
+      },
+      "duree": {
+        "min": 15,
+        "ideal": 30,
+        "extensible": true
+      },
+      "lieux": [
+        "maison"
+      ],
+      "humeurs": [
+        "pose"
+      ],
+      "energie": "calme",
+      "effortParent": "faible",
+      "bazar": 1,
+      "type": "calme",
+      "materiel": [
+        {
+          "nom": "des coussins et une couverture",
+          "courant": true
+        },
+        {
+          "nom": "une pile de livres",
+          "courant": true
+        },
+        {
+          "nom": "une petite lampe ou une lampe de poche (facultatif)",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Aide-le à installer un coin douillet avec coussins, couverture et une pile de livres.",
+        "Une fois le nid prêt, laisse-le s'y installer seul.",
+        "Il lit, ou « lit » en inventant les histoires à partir des images.",
+        "Le cocon donne envie d'y rester un bon moment."
+      ],
+      "astuce": "Tu montes le nid (le lancement), puis tu t'éclipses : il s'y absorbe seul. Idéal pour un moment calme sans écran.",
+      "partage": "Réfugié dans sa cabane à livres tout l'après-midi. 📚🛋️",
+      "autonomie": "avec_lancement"
+    },
+    {
+      "id": "act_159",
+      "titre": "Le puzzle du moment",
+      "accroche": "Pièce après pièce, l'image se reconstruit : une concentration tranquille, rien qu'à soi.",
+      "age": {
+        "min": 2,
+        "max": 10
+      },
+      "duree": {
+        "min": 15,
+        "ideal": 30,
+        "extensible": true
+      },
+      "lieux": [
+        "maison"
+      ],
+      "humeurs": [
+        "pose",
+        "ennui"
+      ],
+      "energie": "calme",
+      "effortParent": "faible",
+      "bazar": 0,
+      "type": "jeu",
+      "materiel": [
+        {
+          "nom": "un puzzle adapté à son âge",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Choisis avec lui un puzzle à sa mesure (ni trop simple, ni décourageant).",
+        "Installe-le à une table ou au sol, pièces étalées.",
+        "Il le reconstitue à son rythme, seul, dans le calme.",
+        "Fierté garantie une fois la dernière pièce posée."
+      ],
+      "astuce": "Valeur sûre de l'autonomie calme. Un puzzle légèrement au-dessus de son niveau habituel le tient plus longtemps.",
+      "partage": "Puzzle de 48 pièces terminé en solo. Grande fierté. 🧩✨",
+      "autonomie": "totale"
+    },
+    {
+      "id": "act_160",
+      "titre": "L'atelier gommettes",
+      "accroche": "Coller des gommettes partout où on veut : simple, magique, et étonnamment absorbant.",
+      "age": {
+        "min": 2,
+        "max": 6
+      },
+      "duree": {
+        "min": 15,
+        "ideal": 25,
+        "extensible": true
+      },
+      "lieux": [
+        "maison"
+      ],
+      "humeurs": [
+        "inspire",
+        "pose",
+        "ennui"
+      ],
+      "energie": "calme",
+      "effortParent": "faible",
+      "bazar": 0,
+      "type": "creation",
+      "materiel": [
+        {
+          "nom": "des planches de gommettes ou d'autocollants",
+          "courant": true
+        },
+        {
+          "nom": "des feuilles",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Donne-lui des gommettes et quelques feuilles.",
+        "Il colle librement, ou compose un décor, un bonhomme, une scène.",
+        "Décoller-recoller occupe les petites mains un long moment, seul.",
+        "Il affiche sa création une fois finie."
+      ],
+      "astuce": "Zéro préparation, autonomie totale, et ça travaille la motricité fine. Un rouleau de gommettes dépanne toujours.",
+      "partage": "Chef-d'œuvre en gommettes réalisé en solo. 🌟🖼️",
+      "autonomie": "totale"
+    },
+    {
+      "id": "act_161",
+      "titre": "Construis, casse, recommence",
+      "accroche": "On empile le plus haut possible… et on fait tout tomber d'un grand geste. Puis on recommence.",
+      "age": {
+        "min": 1,
+        "max": 5
+      },
+      "duree": {
+        "min": 15,
+        "ideal": 25,
+        "extensible": true
+      },
+      "lieux": [
+        "maison"
+      ],
+      "humeurs": [
+        "afond",
+        "ennui"
+      ],
+      "energie": "neutre",
+      "effortParent": "faible",
+      "bazar": 1,
+      "type": "defi",
+      "materiel": [
+        {
+          "nom": "des cubes, gobelets, ou boîtes qui s'empilent",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Donne-lui de quoi empiler : cubes, gobelets, petites boîtes.",
+        "Il monte une tour le plus haut possible, tout seul.",
+        "Puis vient le meilleur moment : tout faire tomber d'un coup !",
+        "Et on recommence, encore et encore. Le cycle occupe longtemps."
+      ],
+      "astuce": "Le plaisir de la chute relance le jeu à l'infini : parfait pour occuper un petit seul sans se lasser.",
+      "partage": "Tour montée et démolie 47 fois. Bonheur intact. 🧱💥",
+      "autonomie": "totale"
+    },
+    {
+      "id": "act_162",
+      "titre": "La mission dessin surprise",
+      "accroche": "Pioche un défi dessin au hasard et relève-le : dessine un animal à 5 pattes, une maison qui vole…",
+      "age": {
+        "min": 4,
+        "max": 10
+      },
+      "duree": {
+        "min": 15,
+        "ideal": 25,
+        "extensible": true
+      },
+      "lieux": [
+        "maison"
+      ],
+      "humeurs": [
+        "inspire",
+        "ennui"
+      ],
+      "energie": "calme",
+      "effortParent": "faible",
+      "bazar": 0,
+      "type": "creation",
+      "materiel": [
+        {
+          "nom": "des feuilles et des crayons",
+          "courant": true
+        }
+      ],
+      "sansMateriel": false,
+      "etapes": [
+        "Écris (ou dis-lui) quelques défis dessin rigolos : « un animal à 5 pattes », « une maison qui vole », « un monstre gentil ».",
+        "Il en choisit un et le dessine à sa façon, seul.",
+        "Chaque défi terminé, il passe au suivant.",
+        "Il te montre sa galerie de défis à la fin."
+      ],
+      "astuce": "La contrainte rigolote donne un point de départ, ce qui aide énormément à se lancer sans toi.",
+      "partage": "Défi dessin du jour : un chat-fusée à 5 pattes. Réussi. 🐱🚀",
+      "autonomie": "totale"
     }
   ]
 }

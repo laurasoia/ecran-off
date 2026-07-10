@@ -7,6 +7,11 @@ const LABEL_TYPE = {
   exploration: 'Explore', calme: 'Au calme', defi: 'Défi',
 }
 
+const AUTONOMIE = {
+  totale: { txt: '🧩 Il joue seul', cls: 'bg-[#E7EEFB] text-[#2E4C86]' },
+  avec_lancement: { txt: '🧩 Tu lances, il continue', cls: 'bg-[#E7EEFB] text-[#2E4C86]' },
+}
+
 function Pastille({ children, vert = false }) {
   return (
     <span
@@ -47,6 +52,11 @@ export default function CarteActivite({ activite, onAutre, onAccueil, onPartage 
       <div className="px-6 py-4 space-y-5">
         {/* matériel allégé en pastilles */}
         <div className="flex flex-wrap gap-2">
+          {AUTONOMIE[activite.autonomie] && (
+            <span className={`inline-flex items-center gap-1.5 rounded-full font-body font-bold text-xs px-3 py-1.5 ${AUTONOMIE[activite.autonomie].cls}`}>
+              {AUTONOMIE[activite.autonomie].txt}
+            </span>
+          )}
           {dejaLa && <Pastille vert>✅ Tu as déjà tout</Pastille>}
           {activite.sansMateriel ? (
             !dejaLa && <Pastille vert>✅ Rien à préparer</Pastille>
